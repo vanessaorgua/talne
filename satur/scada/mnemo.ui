@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1304</width>
-    <height>708</height>
+    <width>3450</width>
+    <height>1218</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -18,8 +18,8 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>1304</width>
-    <height>708</height>
+    <width>3450</width>
+    <height>1218</height>
    </size>
   </property>
   <property name="font">
@@ -36,6 +36,19 @@
   <property name="alignment">
    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
   </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>90</y>
+     <width>52</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
  </widget>
  <resources>
   <include location="mnemo/mnemo.qrc"/>
