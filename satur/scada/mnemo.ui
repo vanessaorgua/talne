@@ -61,6 +61,9 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Температура диф. соку</string>
+   </property>
    <property name="text">
     <string>12.3</string>
    </property>
@@ -321,14 +324,14 @@
   <widget class="QLineEdit" name="s_V_15">
    <property name="geometry">
     <rect>
-     <x>2890</x>
-     <y>320</y>
+     <x>3000</x>
+     <y>440</y>
      <width>41</width>
      <height>24</height>
     </rect>
    </property>
    <property name="text">
-    <string>12.3</string>
+    <string>100</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
@@ -910,8 +913,8 @@
   <widget class="QLineEdit" name="s_V_46">
    <property name="geometry">
     <rect>
-     <x>1270</x>
-     <y>420</y>
+     <x>1310</x>
+     <y>380</y>
      <width>41</width>
      <height>24</height>
     </rect>
@@ -929,8 +932,8 @@
   <widget class="QLineEdit" name="s_V_47">
    <property name="geometry">
     <rect>
-     <x>1276</x>
-     <y>250</y>
+     <x>1220</x>
+     <y>230</y>
      <width>41</width>
      <height>24</height>
     </rect>
@@ -949,8 +952,8 @@
    <property name="geometry">
     <rect>
      <x>2930</x>
-     <y>280</y>
-     <width>41</width>
+     <y>250</y>
+     <width>49</width>
      <height>24</height>
     </rect>
    </property>
@@ -967,8 +970,8 @@
   <widget class="QLineEdit" name="s_V_49">
    <property name="geometry">
     <rect>
-     <x>520</x>
-     <y>140</y>
+     <x>500</x>
+     <y>70</y>
      <width>51</width>
      <height>24</height>
     </rect>
@@ -986,7 +989,7 @@
   <widget class="QLineEdit" name="s_V_50">
    <property name="geometry">
     <rect>
-     <x>1580</x>
+     <x>1470</x>
      <y>10</y>
      <width>41</width>
      <height>24</height>
@@ -1024,8 +1027,8 @@
   <widget class="QLineEdit" name="s_V_52">
    <property name="geometry">
     <rect>
-     <x>720</x>
-     <y>120</y>
+     <x>710</x>
+     <y>70</y>
      <width>41</width>
      <height>24</height>
     </rect>
@@ -2540,9 +2543,1902 @@
     <bool>false</bool>
    </property>
   </widget>
+  <widget class="QProgressBar" name="s_pV_36">
+   <property name="geometry">
+    <rect>
+     <x>314</x>
+     <y>106</y>
+     <width>14</width>
+     <height>114</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>160</red>
+         <green>160</green>
+         <blue>160</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>160</red>
+         <green>160</green>
+         <blue>160</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>160</red>
+         <green>160</green>
+         <blue>160</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>160</red>
+         <green>160</green>
+         <blue>160</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+   <property name="textVisible">
+    <bool>false</bool>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <property name="invertedAppearance">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_01">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>220</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_02">
+   <property name="geometry">
+    <rect>
+     <x>1280</x>
+     <y>334</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_03">
+   <property name="geometry">
+    <rect>
+     <x>1273</x>
+     <y>422</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_04">
+   <property name="geometry">
+    <rect>
+     <x>1224</x>
+     <y>182</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_05">
+   <property name="geometry">
+    <rect>
+     <x>2888</x>
+     <y>286</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_06">
+   <property name="geometry">
+    <rect>
+     <x>464</x>
+     <y>142</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_07">
+   <property name="geometry">
+    <rect>
+     <x>1417</x>
+     <y>45</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_08">
+   <property name="geometry">
+    <rect>
+     <x>572</x>
+     <y>142</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_09">
+   <property name="geometry">
+    <rect>
+     <x>663</x>
+     <y>117</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_10">
+   <property name="geometry">
+    <rect>
+     <x>1415</x>
+     <y>261</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_11">
+   <property name="geometry">
+    <rect>
+     <x>2728</x>
+     <y>260</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_12">
+   <property name="geometry">
+    <rect>
+     <x>883</x>
+     <y>283</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_13">
+   <property name="geometry">
+    <rect>
+     <x>992</x>
+     <y>308</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_14">
+   <property name="geometry">
+    <rect>
+     <x>1523</x>
+     <y>383</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_15">
+   <property name="geometry">
+    <rect>
+     <x>2491</x>
+     <y>283</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_16">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>182</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_17">
+   <property name="geometry">
+    <rect>
+     <x>2020</x>
+     <y>383</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_18">
+   <property name="geometry">
+    <rect>
+     <x>714</x>
+     <y>550</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_19">
+   <property name="geometry">
+    <rect>
+     <x>2439</x>
+     <y>550</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_20">
+   <property name="geometry">
+    <rect>
+     <x>1460</x>
+     <y>550</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="s_X_21">
+   <property name="geometry">
+    <rect>
+     <x>2773</x>
+     <y>550</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_01">
+   <property name="geometry">
+    <rect>
+     <x>337</x>
+     <y>220</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_01">
+   <property name="geometry">
+    <rect>
+     <x>314</x>
+     <y>242</y>
+     <width>41</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 41px;
+min-height: 28px;
+max-width: 41px;
+max-height: 28px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_r_off_28x41.png);
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_r_on_28x41.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_02">
+   <property name="geometry">
+    <rect>
+     <x>1286</x>
+     <y>294</y>
+     <width>28</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 28px;
+min-height: 41px;
+max-width: 28px;
+max-height: 41px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/klapan_analog_vert_off_28x41.png) ;
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/klapan_analog_vert_on_28x41.png)
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_03">
+   <property name="geometry">
+    <rect>
+     <x>1280</x>
+     <y>380</y>
+     <width>28</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 28px;
+min-height: 41px;
+max-width: 28px;
+max-height: 41px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/klapan_analog_vert_off_28x41.png) ;
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/klapan_analog_vert_on_28x41.png)
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_04">
+   <property name="geometry">
+    <rect>
+     <x>1264</x>
+     <y>180</y>
+     <width>41</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 41px;
+min-height: 28px;
+max-width: 41px;
+max-height: 28px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_r_off_28x41.png);
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_r_on_28x41.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_05">
+   <property name="geometry">
+    <rect>
+     <x>2894</x>
+     <y>244</y>
+     <width>28</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 28px;
+min-height: 41px;
+max-width: 28px;
+max-height: 41px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/klapan_analog_vert_off_28x41.png) ;
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/klapan_analog_vert_on_28x41.png)
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_06">
+   <property name="geometry">
+    <rect>
+     <x>505</x>
+     <y>140</y>
+     <width>41</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 41px;
+min-height: 28px;
+max-width: 41px;
+max-height: 28px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_r_off_28x41.png);
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_r_on_28x41.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_07">
+   <property name="geometry">
+    <rect>
+     <x>1423</x>
+     <y>5</y>
+     <width>28</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 28px;
+min-height: 41px;
+max-width: 28px;
+max-height: 41px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/klapan_analog_vert_off_28x41.png) ;
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/klapan_analog_vert_on_28x41.png)
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_08">
+   <property name="geometry">
+    <rect>
+     <x>612</x>
+     <y>140</y>
+     <width>41</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 41px;
+min-height: 28px;
+max-width: 41px;
+max-height: 28px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_r_off_28x41.png);
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_r_on_28x41.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_09">
+   <property name="geometry">
+    <rect>
+     <x>669</x>
+     <y>76</y>
+     <width>28</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 28px;
+min-height: 41px;
+max-width: 28px;
+max-height: 41px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/klapan_analog_vert_off_28x41.png) ;
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/klapan_analog_vert_on_28x41.png)
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_10">
+   <property name="geometry">
+    <rect>
+     <x>1454</x>
+     <y>258</y>
+     <width>41</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 41px;
+min-height: 28px;
+max-width: 41px;
+max-height: 28px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_r_off_28x41.png);
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_r_on_28x41.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_11">
+   <property name="geometry">
+    <rect>
+     <x>2767</x>
+     <y>257</y>
+     <width>41</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 41px;
+min-height: 28px;
+max-width: 41px;
+max-height: 28px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_r_off_28x41.png);
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_r_on_28x41.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_12">
+   <property name="geometry">
+    <rect>
+     <x>924</x>
+     <y>280</y>
+     <width>41</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 41px;
+min-height: 28px;
+max-width: 41px;
+max-height: 28px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_r_off_28x41.png);
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_r_on_28x41.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_13">
+   <property name="geometry">
+    <rect>
+     <x>981</x>
+     <y>280</y>
+     <width>41</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 41px;
+min-height: 28px;
+max-width: 41px;
+max-height: 28px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_r_off_28x41.png);
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_r_on_28x41.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_14">
+   <property name="geometry">
+    <rect>
+     <x>1530</x>
+     <y>343</y>
+     <width>28</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 28px;
+min-height: 41px;
+max-width: 28px;
+max-height: 41px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/klapan_analog_vert_off_28x41.png) ;
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/klapan_analog_vert_on_28x41.png)
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_15">
+   <property name="geometry">
+    <rect>
+     <x>2532</x>
+     <y>280</y>
+     <width>41</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 41px;
+min-height: 28px;
+max-width: 41px;
+max-height: 28px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_r_off_28x41.png);
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_r_on_28x41.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_16">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>184</y>
+     <width>45</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 45px;
+min-height: 34px;
+max-width: 45px;
+max-height: 34px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/lib/div_off_45x90.png);
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/lib/div_on_45x90.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_17">
+   <property name="geometry">
+    <rect>
+     <x>2062</x>
+     <y>380</y>
+     <width>41</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 41px;
+min-height: 28px;
+max-width: 41px;
+max-height: 28px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_r_off_28x41.png);
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_r_on_28x41.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_18">
+   <property name="geometry">
+    <rect>
+     <x>724</x>
+     <y>574</y>
+     <width>26</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 26px;
+min-height: 30px;
+max-width: 26px;
+max-height: 30px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/lib/pump_off_26x30.png);
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/lib/pump_on_26x30.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_19">
+   <property name="geometry">
+    <rect>
+     <x>2445</x>
+     <y>574</y>
+     <width>26</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 26px;
+min-height: 30px;
+max-width: 26px;
+max-height: 30px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/lib/pump_off_26x30.png);
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/lib/pump_on_26x30.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_20">
+   <property name="geometry">
+    <rect>
+     <x>1469</x>
+     <y>574</y>
+     <width>26</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 26px;
+min-height: 30px;
+max-width: 26px;
+max-height: 30px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/lib/pump_off_26x30.png);
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/lib/pump_on_26x30.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cX_21">
+   <property name="geometry">
+    <rect>
+     <x>2780</x>
+     <y>574</y>
+     <width>26</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 26px;
+min-height: 30px;
+max-width: 26px;
+max-height: 30px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/lib/pump_off_26x30.png);
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/lib/pump_on_26x30.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_02">
+   <property name="geometry">
+    <rect>
+     <x>1290</x>
+     <y>270</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_03">
+   <property name="geometry">
+    <rect>
+     <x>1286</x>
+     <y>358</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_04">
+   <property name="geometry">
+    <rect>
+     <x>1290</x>
+     <y>158</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_05">
+   <property name="geometry">
+    <rect>
+     <x>2900</x>
+     <y>220</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_06">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>115</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_07">
+   <property name="geometry">
+    <rect>
+     <x>1400</x>
+     <y>10</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_08">
+   <property name="geometry">
+    <rect>
+     <x>656</x>
+     <y>141</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_9">
+   <property name="geometry">
+    <rect>
+     <x>673</x>
+     <y>52</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_10">
+   <property name="geometry">
+    <rect>
+     <x>1479</x>
+     <y>234</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_11">
+   <property name="geometry">
+    <rect>
+     <x>2790</x>
+     <y>234</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_12">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>258</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_13">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>258</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_14">
+   <property name="geometry">
+    <rect>
+     <x>1535</x>
+     <y>319</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_15">
+   <property name="geometry">
+    <rect>
+     <x>2554</x>
+     <y>258</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_16">
+   <property name="geometry">
+    <rect>
+     <x>537</x>
+     <y>186</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_17">
+   <property name="geometry">
+    <rect>
+     <x>2085</x>
+     <y>358</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_18">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>550</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_19">
+   <property name="geometry">
+    <rect>
+     <x>2490</x>
+     <y>550</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_20">
+   <property name="geometry">
+    <rect>
+     <x>1510</x>
+     <y>550</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_AM_21">
+   <property name="geometry">
+    <rect>
+     <x>2820</x>
+     <y>550</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
  </widget>
  <resources>
   <include location="mnemo/mnemo.qrc"/>
+  <include location="../../../lib/picture.qrc"/>
  </resources>
  <connections/>
 </ui>

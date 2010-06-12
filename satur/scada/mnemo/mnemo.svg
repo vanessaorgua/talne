@@ -4866,7 +4866,7 @@
        xlink:href="#linearGradient15660"
        id="linearGradient16823"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.04578174,0,0,1.6799929,767.23563,-1948.1613)"
+       gradientTransform="matrix(0.04578174,0,0,1.4974111,716.34277,-1883.0138)"
        x1="257.42029"
        y1="404.41205"
        x2="322.94861"
@@ -7063,6 +7063,26 @@
        y1="313.69116"
        x2="100.49008"
        y2="313.69116" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient15660"
+       id="linearGradient4910"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.04578174,0,0,0.18166129,766.47802,-1273.8275)"
+       x1="257.42029"
+       y1="404.41205"
+       x2="322.94861"
+       y2="404.41205" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient15660"
+       id="linearGradient4914"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.04578174,0,0,0.58191737,-1223.3049,-990.04567)"
+       x1="257.42029"
+       y1="404.41205"
+       x2="322.94861"
+       y2="404.41205" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -7071,9 +7091,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="2670.4978"
-     inkscape:cy="173.51924"
+     inkscape:zoom="1"
+     inkscape:cx="2129.131"
+     inkscape:cy="192.60446"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -7093,7 +7113,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -7444,23 +7464,6 @@
          d="m 907.02014,883.37581 7.9106,0 -0.7868,10e-4 52.93511,-17.42741 -112.53711,0 52.4782,17.42603 z"
          id="path11727"
          style="fill:url(#linearGradient11731);stroke:#000000;stroke-width:1.27794563999999999;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:17.89123939px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-    </g>
-    <g
-       id="g16546"
-       transform="matrix(1.0028367,0,0,1.0149972,-185.97894,414.54686)"
-       style="-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:13.87651802px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">
-      <path
-         style="fill:url(#linearGradient16551);stroke:#404040;stroke-width:0.99117982000000004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:13.87651802px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
-         id="path8504"
-         d="m 687.95003,202.96348 9.3927,-11.81374 -21.42467,0 -0.23259,0 10.32306,11.81374 1.9415,0 z" />
-      <path
-         style="fill:#ebebeb;stroke:#404040;stroke-width:0.99117982000000004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:13.87651802px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
-         id="path8506"
-         d="m 718.70213,191.0308 -43.5127,0 0,-20.74527 43.5127,0 0,20.74527 z" />
-      <path
-         style="fill:url(#linearGradient16553);stroke:#404040;stroke-width:0.99117982000000004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:13.87651802px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
-         id="path8513"
-         d="m 708.91543,202.96348 9.3927,-11.81374 -21.4246,0 -0.2326,0 10.3231,11.81374 1.9414,0 z" />
     </g>
     <path
        style="fill:url(#linearGradient12733);stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:14px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
@@ -8568,7 +8571,7 @@
        sodipodi:cy="247.24341"
        sodipodi:rx="49.497475"
        sodipodi:ry="49.497475"
-       d="m 2447.5995,247.24341 a 49.497475,49.497475 0 1 1 -98.9949,0 49.497475,49.497475 0 1 1 98.9949,0 z"
+       d="m 2447.5995,247.24341 c 0,27.3367 -22.1607,49.49747 -49.4974,49.49747 -27.3367,0 -49.4975,-22.16077 -49.4975,-49.49747 0,-27.3367 22.1608,-49.49748 49.4975,-49.49748 27.3367,0 49.4974,22.16078 49.4974,49.49748 z"
        transform="translate(-507.95754,378.63486)" />
     <path
        style="fill:#aaadaa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:14px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
@@ -10412,16 +10415,16 @@
        x="-1111.2124"
        y="-838.97198" />
     <rect
-       y="-1345.4327"
-       x="779.02075"
-       height="153.36302"
+       y="-1345.7899"
+       x="728.12787"
+       height="136.6955"
        width="3"
        id="rect16819"
-       style="fill:url(#linearGradient16823);fill-opacity:1;fill-rule:evenodd;stroke:none;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:14px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient16823);fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
        transform="matrix(0,1,-1,0,0,0)" />
     <path
        sodipodi:type="star"
-       style="fill:url(#linearGradient16825);fill-opacity:1;fill-rule:evenodd;stroke:none;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:74.21116416px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       style="font-size:74.21116638px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient16825);fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
        id="path16821"
        sodipodi:sides="3"
        sodipodi:cx="72.009697"
@@ -10434,7 +10437,7 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
-       transform="matrix(0,-0.17555941,0.20271854,0,1286.5268,793.33179)" />
+       transform="matrix(0,-0.17555941,0.20271854,0,1286.8839,742.43893)" />
     <rect
        y="816.34058"
        x="1070.3286"
@@ -12279,156 +12282,6 @@
          style="fill:#ffffff;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
     </g>
     <g
-       transform="matrix(-0.2992822,0,0,0.2992822,828.82277,831.40904)"
-       id="g9941"
-       style="-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">
-      <path
-         style="fill:#7f7f7f;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
-         id="path9943"
-         d="m 302.83302,583.50567 -23.56666,0 0,-4.00798 23.56666,0 0,4.00798 z"
-         i:knockout="Off" />
-      <path
-         style="fill:#7f7f7f;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
-         id="path9945"
-         d="m 347.9276,583.50567 -23.56666,0 0,-4.00798 23.56666,0 0,4.00798 z"
-         i:knockout="Off" />
-      <path
-         style="fill:#7f7f7f;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
-         id="path9947"
-         d="m 304.10754,574.30169 -12.73922,-9.6507 -4.57235,14.90064 16.03705,-0.0553 1.27452,-5.19461 z"
-         i:knockout="Off" />
-      <path
-         style="fill:#7f7f7f;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
-         id="path9949"
-         d="m 323.0888,574.18552 12.73922,-9.6507 4.57235,14.90063 -16.03706,-0.0553 -1.27451,-5.19461 z"
-         i:knockout="Off" />
-      <path
-         style="fill:url(#radialGradient9971);stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
-         id="path9951"
-         d="m 348.51027,533.2883 c 0,23.34395 -15.5066,42.26917 -34.63738,42.26917 -19.13078,0 -34.63739,-18.92383 -34.63739,-42.26917 0,-23.34534 15.50661,-42.26918 34.63739,-42.26918 19.13078,0 34.63738,18.92384 34.63738,42.26918 z"
-         i:knockout="Off" />
-      <path
-         style="fill:url(#linearGradient9973);-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
-         id="path9953"
-         d="m 314.04615,492.17118 0.0985,1.15205 0.79153,1.61398 0.69185,2.42028 1.58187,5.64687 -43.70971,20.32759 0,-32.31283 40.37271,0 0.17326,1.15206 z"
-         i:knockout="Off" />
-      <path
-         style="fill:url(#linearGradient9975);stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
-         id="path9955"
-         d="m 273.53697,526.97759 -8.54067,0 0,-40.10752 8.54067,0 0,40.10752 z"
-         i:knockout="Off" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
-         id="path9957"
-         d="m 328.78139,533.37404 c 0,9.64379 -6.90659,17.4606 -15.42709,17.4606 -8.5205,0 -15.42709,-7.81681 -15.42709,-17.4606 0,-9.64378 6.90659,-17.4606 15.42709,-17.4606 8.5205,0 15.42709,7.81682 15.42709,17.4606 z"
-         i:knockout="Off" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
-         id="path9959"
-         d="m 297.92721,537.00447 29.96416,-8.64387"
-         i:knockout="Off" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
-         id="path9961"
-         d="m 300.00393,524.55731 27.88744,15.55895"
-         i:knockout="Off" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
-         id="path9963"
-         d="M 302.97068,545.99408 322.8479,520.0625"
-         i:knockout="Off" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
-         id="path9965"
-         d="m 310.09088,550.14313 5.93349,-34.22969"
-         i:knockout="Off" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
-         id="path9967"
-         d="M 319.88115,549.45163 307.12413,516.95071"
-         i:knockout="Off" />
-      <path
-         style="fill:#ffffff;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
-         id="path9969"
-         d="m 316.32105,532.50966 c 0,1.90995 -1.32792,3.45754 -2.96675,3.45754 -1.63883,0 -2.96675,-1.54759 -2.96675,-3.45754 0,-1.90995 1.32792,-3.45755 2.96675,-3.45755 1.63883,0 2.96675,1.5476 2.96675,3.45755 z"
-         i:knockout="Off" />
-    </g>
-    <g
-       id="g9977"
-       transform="matrix(-0.2992822,0,0,0.2992822,1574.4169,831.40904)"
-       style="-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">
-      <path
-         i:knockout="Off"
-         d="m 302.83302,583.50567 -23.56666,0 0,-4.00798 23.56666,0 0,4.00798 z"
-         id="path9979"
-         style="fill:#7f7f7f;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 347.9276,583.50567 -23.56666,0 0,-4.00798 23.56666,0 0,4.00798 z"
-         id="path9981"
-         style="fill:#7f7f7f;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 304.10754,574.30169 -12.73922,-9.6507 -4.57235,14.90064 16.03705,-0.0553 1.27452,-5.19461 z"
-         id="path9983"
-         style="fill:#7f7f7f;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 323.0888,574.18552 12.73922,-9.6507 4.57235,14.90063 -16.03706,-0.0553 -1.27451,-5.19461 z"
-         id="path9985"
-         style="fill:#7f7f7f;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 348.51027,533.2883 c 0,23.34395 -15.5066,42.26917 -34.63738,42.26917 -19.13078,0 -34.63739,-18.92383 -34.63739,-42.26917 0,-23.34534 15.50661,-42.26918 34.63739,-42.26918 19.13078,0 34.63738,18.92384 34.63738,42.26918 z"
-         id="path9987"
-         style="fill:url(#radialGradient10007);stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 314.04615,492.17118 0.0985,1.15205 0.79153,1.61398 0.69185,2.42028 1.58187,5.64687 -43.70971,20.32759 0,-32.31283 40.37271,0 0.17326,1.15206 z"
-         id="path9989"
-         style="fill:url(#linearGradient10009);-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 273.53697,526.97759 -8.54067,0 0,-40.10752 8.54067,0 0,40.10752 z"
-         id="path9991"
-         style="fill:url(#linearGradient10011);stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 328.78139,533.37404 c 0,9.64379 -6.90659,17.4606 -15.42709,17.4606 -8.5205,0 -15.42709,-7.81681 -15.42709,-17.4606 0,-9.64378 6.90659,-17.4606 15.42709,-17.4606 8.5205,0 15.42709,7.81682 15.42709,17.4606 z"
-         id="path9993"
-         style="fill:none;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 297.92721,537.00447 29.96416,-8.64387"
-         id="path9995"
-         style="fill:none;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 300.00393,524.55731 27.88744,15.55895"
-         id="path9997"
-         style="fill:none;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="M 302.97068,545.99408 322.8479,520.0625"
-         id="path9999"
-         style="fill:none;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 310.09088,550.14313 5.93349,-34.22969"
-         id="path10001"
-         style="fill:none;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="M 319.88115,549.45163 307.12413,516.95071"
-         id="path10003"
-         style="fill:none;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 316.32105,532.50966 c 0,1.90995 -1.32792,3.45754 -2.96675,3.45754 -1.63883,0 -2.96675,-1.54759 -2.96675,-3.45754 0,-1.90995 1.32792,-3.45755 2.96675,-3.45755 1.63883,0 2.96675,1.5476 2.96675,3.45755 z"
-         id="path10005"
-         style="fill:#ffffff;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-    </g>
-    <g
        transform="matrix(0.2992822,0,0,0.2992822,1537.4297,831.40904)"
        id="g10013"
        style="-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">
@@ -12726,156 +12579,6 @@
          i:knockout="Off"
          d="m 316.32105,532.50966 c 0,1.90995 -1.32792,3.45754 -2.96675,3.45754 -1.63883,0 -2.96675,-1.54759 -2.96675,-3.45754 0,-1.90995 1.32792,-3.45755 2.96675,-3.45755 1.63883,0 2.96675,1.5476 2.96675,3.45755 z"
          id="path10149"
-         style="fill:#ffffff;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-    </g>
-    <g
-       transform="matrix(-0.2992822,0,0,0.2992822,2550.3867,831.40904)"
-       id="g10157"
-       style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans">
-      <path
-         style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#7f7f7f;stroke:#000000;stroke-width:2.1402936;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
-         id="path10159"
-         d="m 302.83302,583.50567 -23.56666,0 0,-4.00798 23.56666,0 0,4.00798 z"
-         i:knockout="Off" />
-      <path
-         style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#7f7f7f;stroke:#000000;stroke-width:2.1402936;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
-         id="path10161"
-         d="m 347.9276,583.50567 -23.56666,0 0,-4.00798 23.56666,0 0,4.00798 z"
-         i:knockout="Off" />
-      <path
-         style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#7f7f7f;stroke:#000000;stroke-width:2.1402936;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
-         id="path10163"
-         d="m 304.10754,574.30169 -12.73922,-9.6507 -4.57235,14.90064 16.03705,-0.0553 1.27452,-5.19461 z"
-         i:knockout="Off" />
-      <path
-         style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#7f7f7f;stroke:#000000;stroke-width:2.1402936;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
-         id="path10165"
-         d="m 323.0888,574.18552 12.73922,-9.6507 4.57235,14.90063 -16.03706,-0.0553 -1.27451,-5.19461 z"
-         i:knockout="Off" />
-      <path
-         style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:url(#radialGradient10187);stroke:#000000;stroke-width:2.1402936;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
-         id="path10167"
-         d="m 348.51027,533.2883 c 0,23.34395 -15.5066,42.26917 -34.63738,42.26917 -19.13078,0 -34.63739,-18.92383 -34.63739,-42.26917 0,-23.34534 15.50661,-42.26918 34.63739,-42.26918 19.13078,0 34.63738,18.92384 34.63738,42.26918 z"
-         i:knockout="Off" />
-      <path
-         style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient10189);font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
-         id="path10169"
-         d="m 314.04615,492.17118 0.0985,1.15205 0.79153,1.61398 0.69185,2.42028 1.58187,5.64687 -43.70971,20.32759 0,-32.31283 40.37271,0 0.17326,1.15206 z"
-         i:knockout="Off" />
-      <path
-         style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient10191);stroke:#000000;stroke-width:2.1402936;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
-         id="path10171"
-         d="m 273.53697,526.97759 -8.54067,0 0,-40.10752 8.54067,0 0,40.10752 z"
-         i:knockout="Off" />
-      <path
-         style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2.1402936;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
-         id="path10173"
-         d="m 328.78139,533.37404 c 0,9.64379 -6.90659,17.4606 -15.42709,17.4606 -8.5205,0 -15.42709,-7.81681 -15.42709,-17.4606 0,-9.64378 6.90659,-17.4606 15.42709,-17.4606 8.5205,0 15.42709,7.81682 15.42709,17.4606 z"
-         i:knockout="Off" />
-      <path
-         style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2.1402936;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
-         id="path10175"
-         d="m 297.92721,537.00447 29.96416,-8.64387"
-         i:knockout="Off" />
-      <path
-         style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2.1402936;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
-         id="path10177"
-         d="m 300.00393,524.55731 27.88744,15.55895"
-         i:knockout="Off" />
-      <path
-         style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2.1402936;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
-         id="path10179"
-         d="M 302.97068,545.99408 322.8479,520.0625"
-         i:knockout="Off" />
-      <path
-         style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2.1402936;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
-         id="path10181"
-         d="m 310.09088,550.14313 5.93349,-34.22969"
-         i:knockout="Off" />
-      <path
-         style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2.1402936;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
-         id="path10183"
-         d="M 319.88115,549.45163 307.12413,516.95071"
-         i:knockout="Off" />
-      <path
-         style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
-         id="path10185"
-         d="m 316.32105,532.50966 c 0,1.90995 -1.32792,3.45754 -2.96675,3.45754 -1.63883,0 -2.96675,-1.54759 -2.96675,-3.45754 0,-1.90995 1.32792,-3.45755 2.96675,-3.45755 1.63883,0 2.96675,1.5476 2.96675,3.45755 z"
-         i:knockout="Off" />
-    </g>
-    <g
-       id="g10193"
-       transform="matrix(-0.2992822,0,0,0.2992822,2885.0112,831.40904)"
-       style="-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">
-      <path
-         i:knockout="Off"
-         d="m 302.83302,583.50567 -23.56666,0 0,-4.00798 23.56666,0 0,4.00798 z"
-         id="path10196"
-         style="fill:#7f7f7f;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 347.9276,583.50567 -23.56666,0 0,-4.00798 23.56666,0 0,4.00798 z"
-         id="path10198"
-         style="fill:#7f7f7f;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 304.10754,574.30169 -12.73922,-9.6507 -4.57235,14.90064 16.03705,-0.0553 1.27452,-5.19461 z"
-         id="path10200"
-         style="fill:#7f7f7f;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 323.0888,574.18552 12.73922,-9.6507 4.57235,14.90063 -16.03706,-0.0553 -1.27451,-5.19461 z"
-         id="path10202"
-         style="fill:#7f7f7f;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 348.51027,533.2883 c 0,23.34395 -15.5066,42.26917 -34.63738,42.26917 -19.13078,0 -34.63739,-18.92383 -34.63739,-42.26917 0,-23.34534 15.50661,-42.26918 34.63739,-42.26918 19.13078,0 34.63738,18.92384 34.63738,42.26918 z"
-         id="path10204"
-         style="fill:url(#radialGradient10224);stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 314.04615,492.17118 0.0985,1.15205 0.79153,1.61398 0.69185,2.42028 1.58187,5.64687 -43.70971,20.32759 0,-32.31283 40.37271,0 0.17326,1.15206 z"
-         id="path10206"
-         style="fill:url(#linearGradient10226);-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 273.53697,526.97759 -8.54067,0 0,-40.10752 8.54067,0 0,40.10752 z"
-         id="path10208"
-         style="fill:url(#linearGradient10228);stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 328.78139,533.37404 c 0,9.64379 -6.90659,17.4606 -15.42709,17.4606 -8.5205,0 -15.42709,-7.81681 -15.42709,-17.4606 0,-9.64378 6.90659,-17.4606 15.42709,-17.4606 8.5205,0 15.42709,7.81682 15.42709,17.4606 z"
-         id="path10210"
-         style="fill:none;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 297.92721,537.00447 29.96416,-8.64387"
-         id="path10212"
-         style="fill:none;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 300.00393,524.55731 27.88744,15.55895"
-         id="path10214"
-         style="fill:none;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="M 302.97068,545.99408 322.8479,520.0625"
-         id="path10216"
-         style="fill:none;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 310.09088,550.14313 5.93349,-34.22969"
-         id="path10218"
-         style="fill:none;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="M 319.88115,549.45163 307.12413,516.95071"
-         id="path10220"
-         style="fill:none;stroke:#000000;stroke-width:2.14029360000000013;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-      <path
-         i:knockout="Off"
-         d="m 316.32105,532.50966 c 0,1.90995 -1.32792,3.45754 -2.96675,3.45754 -1.63883,0 -2.96675,-1.54759 -2.96675,-3.45754 0,-1.90995 1.32792,-3.45755 2.96675,-3.45755 1.63883,0 2.96675,1.5476 2.96675,3.45755 z"
-         id="path10222"
          style="fill:#ffffff;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:46.77859225px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
     </g>
     <g
@@ -13943,14 +13646,14 @@
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
-       x="1549.574"
-       y="398.97708"
+       x="-806.33972"
+       y="1590.1946"
        id="text10754"
-       transform="translate(0,402.36218)"><tspan
+       transform="matrix(0,-1,1,0,0,0)"><tspan
          sodipodi:role="line"
          id="tspan10756"
-         x="1549.574"
-         y="398.97708">Пара 3 к.</tspan></text>
+         x="-806.33972"
+         y="1590.1946">Пара 3 к.</tspan></text>
     <g
        transform="translate(958.38226,-47.224632)"
        id="g10758">
@@ -14269,5 +13972,21 @@
          id="tspan10896"
          x="-937.22119"
          y="3261.0269">На випарну станцію</tspan></text>
+    <rect
+       y="-1208.6531"
+       x="778.26318"
+       height="16.583479"
+       width="3"
+       id="rect4908"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient4910);fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       transform="scale(-1,-1)"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient4914);fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       id="rect4912"
+       width="3"
+       height="53.122025"
+       x="-1211.5197"
+       y="-781.27185" />
   </g>
 </svg>
