@@ -1,0 +1,20 @@
+V_36				X_01	SP_01			Am_01			Kp_01	Ti_01	Td_01	Xmin_01	Xmax_01						1. Рівень в трубі
+V_45				X_02	SP_02			Am_02			Kp_02	Ti_02	Td_02	Xmin_02	Xmax_02						2. Рівень в гар.деф
+V_46	V_16	V_48	Spr_03	X_03	SP_03			Am_03	Rej_03		Kp_03	Ti_03	Td_03	Xmin_03	Xmax_03	K1_03	K2_03	K3_03		Kkor_03	3. Витрата соку повернення
+V_47	V_33		Spr_04	X_04	SP_04	SP2_04		Am_04	Rej_04		Kp_04	Ti_04	Td_04	Xmin_04	Xmax_04	K1_04				Kkor_04	4. Витрата сусп. 1 сат.
+V_48				X_05	SP_05			Am_05			Kp_05	Ti_05	Td_05	Xmin_05	Xmax_05						5. Витрата сусп. 2 сат.
+V_49	V_16		Spr_06	X_06	SP_06			Am_06			Kp_06	Ti_06	Td_06	Xmin_06	Xmax_06	K1_06				Kkor_06	6. Витрата в.м. На осн. Деф.
+V_50	V_35			X_07	SP_07			Am_07	Rej_06		Kp_07	Ti_07	Td_07	Xmin_07	Xmax_07						7. Тиск газу
+V_51				X_08	SP_08			Am_08			Kp_08	Ti_08	Td_08	Xmin_08	Xmax_08						8. Рівень в зб. в.м.
+V_52	V_38		Spr_09	X_09	SP_09			Am_09			Kp_09	Ti_09	Td_09	Xmin_09	Xmax_09	K1_09				Kkor_09	9. Витрата в.м. на деф. 2 сат.
+V_53	V_37			X_10	SP_10			Am_10	Rej_09		Kp_10	Ti_10	Td_10	Xmin_10	Xmax_10						10. рН 1-ї сатурації
+V_54	V_38			X_11	SP_11			Am_11			Kp_11	Ti_11	Td_11	Xmin_11	Xmax_11						11. РН 2-ї сатурації
+V_05				X_12	SP_12			Am_12			Kp_12	Ti_12	Td_12	Xmin_12	Xmax_12						12. Температура соку після підігр. 3
+V_06				X_13	SP_13			Am_13			Kp_13	Ti_13	Td_13	Xmin_13	Xmax_13						13. Температура соку після підігр. 4
+V_08				X_14	SP_14			Am_14			Kp_14	Ti_14	Td_14	Xmin_14	Xmax_14						14. Температура соку 1-ї сат.
+V_10				X_15	SP_15			Am_15			Kp_15	Ti_15	Td_15	Xmin_15	Xmax_15						15. Температура соку 2-ї сат.
+V_49				X_16	SP_16			Am_16			Kp_16	Ti_16	Td_16	Xmin_16	Xmax_16						16. Витрата в.м. В ПДБМ
+V_37	V_28		Spr_18	X_18	SP_18	SP2_18		Am_18	Rej_18		Kp_18	Ti_18	Td_18	Xmin_18	Xmax_18	K1_18				Kkor_18	17. Витрата деф. Соку
+V_38	V_27		Spr_19	X_19	SP_19	SP2_19		Am_19	Rej_19		Kp_19	Ti_19	Td_19	Xmin_19	Xmax_19	K1_19				Kkor_19	18. Витрата деф. Соку  2-ї сат.
+V_41				X_20	SP_20			Am_20			Kp_20	Ti_20	Td_20	Xmin_20	Xmax_20						19. Рівень н. Соку 1 сат
+V_42				X_21	SP_21			Am_21			Kp_21	Ti_21	Td_21	Xmin_21	Xmax_21						20. Рівень н. Соку 2 сат

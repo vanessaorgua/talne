@@ -36,12 +36,12 @@
   <property name="alignment">
    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
   </property>
-  <widget class="QFrame" name="frame">
+  <widget class="QFrame" name="s_Tr_01">
    <property name="geometry">
     <rect>
      <x>30</x>
      <y>650</y>
-     <width>461</width>
+     <width>451</width>
      <height>281</height>
     </rect>
    </property>
@@ -77,8 +77,8 @@
   <widget class="QLineEdit" name="s_V_02">
    <property name="geometry">
     <rect>
-     <x>300</x>
-     <y>390</y>
+     <x>390</x>
+     <y>360</y>
      <width>51</width>
      <height>24</height>
     </rect>
@@ -534,7 +534,7 @@
    <property name="geometry">
     <rect>
      <x>130</x>
-     <y>282</y>
+     <y>152</y>
      <width>41</width>
      <height>24</height>
     </rect>
@@ -1154,8 +1154,11 @@
      </disabled>
     </palette>
    </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
    <property name="value">
-    <number>24</number>
+    <number>100</number>
    </property>
    <property name="textVisible">
     <bool>false</bool>
@@ -1240,8 +1243,11 @@
      </disabled>
     </palette>
    </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
    <property name="value">
-    <number>24</number>
+    <number>100</number>
    </property>
    <property name="textVisible">
     <bool>false</bool>
@@ -1326,8 +1332,11 @@
      </disabled>
     </palette>
    </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
    <property name="value">
-    <number>24</number>
+    <number>100</number>
    </property>
    <property name="textVisible">
     <bool>false</bool>
@@ -1412,8 +1421,11 @@
      </disabled>
     </palette>
    </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
    <property name="value">
-    <number>24</number>
+    <number>100</number>
    </property>
    <property name="textVisible">
     <bool>false</bool>
@@ -1498,8 +1510,11 @@
      </disabled>
     </palette>
    </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
    <property name="value">
-    <number>24</number>
+    <number>100</number>
    </property>
    <property name="textVisible">
     <bool>false</bool>
@@ -1584,8 +1599,11 @@
      </disabled>
     </palette>
    </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
    <property name="value">
-    <number>24</number>
+    <number>100</number>
    </property>
    <property name="textVisible">
     <bool>false</bool>
@@ -1601,7 +1619,7 @@
    <property name="geometry">
     <rect>
      <x>170</x>
-     <y>288</y>
+     <y>158</y>
      <width>20</width>
      <height>61</height>
     </rect>
@@ -1670,8 +1688,11 @@
      </disabled>
     </palette>
    </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
    <property name="value">
-    <number>24</number>
+    <number>100</number>
    </property>
    <property name="textVisible">
     <bool>false</bool>
@@ -1756,8 +1777,11 @@
      </disabled>
     </palette>
    </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
    <property name="value">
-    <number>24</number>
+    <number>100</number>
    </property>
    <property name="textVisible">
     <bool>false</bool>
@@ -1842,8 +1866,11 @@
      </disabled>
     </palette>
    </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
    <property name="value">
-    <number>24</number>
+    <number>100</number>
    </property>
    <property name="textVisible">
     <bool>false</bool>
@@ -1928,8 +1955,11 @@
      </disabled>
     </palette>
    </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
    <property name="value">
-    <number>24</number>
+    <number>100</number>
    </property>
    <property name="textVisible">
     <bool>false</bool>
@@ -2014,8 +2044,11 @@
      </disabled>
     </palette>
    </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
    <property name="value">
-    <number>24</number>
+    <number>100</number>
    </property>
    <property name="textVisible">
     <bool>false</bool>
@@ -2100,8 +2133,11 @@
      </disabled>
     </palette>
    </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
    <property name="value">
-    <number>24</number>
+    <number>100</number>
    </property>
    <property name="textVisible">
     <bool>false</bool>
@@ -2186,8 +2222,11 @@
      </disabled>
     </palette>
    </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
    <property name="value">
-    <number>24</number>
+    <number>100</number>
    </property>
    <property name="textVisible">
     <bool>false</bool>
@@ -2272,8 +2311,11 @@
      </disabled>
     </palette>
    </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
    <property name="value">
-    <number>24</number>
+    <number>100</number>
    </property>
    <property name="textVisible">
     <bool>false</bool>
@@ -2358,8 +2400,11 @@
      </disabled>
     </palette>
    </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
    <property name="value">
-    <number>24</number>
+    <number>100</number>
    </property>
    <property name="textVisible">
     <bool>false</bool>
@@ -2444,8 +2489,11 @@
      </disabled>
     </palette>
    </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
    <property name="value">
-    <number>24</number>
+    <number>100</number>
    </property>
    <property name="textVisible">
     <bool>false</bool>
@@ -2530,8 +2578,11 @@
      </disabled>
     </palette>
    </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
    <property name="value">
-    <number>24</number>
+    <number>100</number>
    </property>
    <property name="textVisible">
     <bool>false</bool>
@@ -2616,8 +2667,11 @@
      </disabled>
     </palette>
    </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
    <property name="value">
-    <number>24</number>
+    <number>100</number>
    </property>
    <property name="textVisible">
     <bool>false</bool>
@@ -2632,11 +2686,48 @@
   <widget class="QLineEdit" name="s_X_01">
    <property name="geometry">
     <rect>
-     <x>260</x>
-     <y>220</y>
+     <x>275</x>
+     <y>244</y>
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>244</red>
+         <green>244</green>
+         <blue>244</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
    </property>
    <property name="text">
     <string>100</string>
@@ -2657,6 +2748,43 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>244</red>
+         <green>244</green>
+         <blue>244</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
    <property name="text">
     <string>100</string>
    </property>
@@ -2675,6 +2803,43 @@
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>244</red>
+         <green>244</green>
+         <blue>244</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
    </property>
    <property name="text">
     <string>100</string>
@@ -2695,6 +2860,43 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>244</red>
+         <green>244</green>
+         <blue>244</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
    <property name="text">
     <string>100</string>
    </property>
@@ -2713,6 +2915,43 @@
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>244</red>
+         <green>244</green>
+         <blue>244</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
    </property>
    <property name="text">
     <string>100</string>
@@ -2733,6 +2972,43 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>244</red>
+         <green>244</green>
+         <blue>244</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
    <property name="text">
     <string>100</string>
    </property>
@@ -2751,6 +3027,43 @@
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>244</red>
+         <green>244</green>
+         <blue>244</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
    </property>
    <property name="text">
     <string>100</string>
@@ -2771,6 +3084,43 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>244</red>
+         <green>244</green>
+         <blue>244</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
    <property name="text">
     <string>100</string>
    </property>
@@ -2790,6 +3140,43 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>244</red>
+         <green>244</green>
+         <blue>244</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
    <property name="text">
     <string>100</string>
    </property>
@@ -2808,6 +3195,43 @@
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>244</red>
+         <green>244</green>
+         <blue>244</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
    </property>
    <property name="text">
     <string>100</string>
@@ -3028,7 +3452,7 @@
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_01">
+  <widget class="QCheckBox" name="s_Am_01">
    <property name="geometry">
     <rect>
      <x>337</x>
@@ -3715,7 +4139,7 @@ QPushButton:pressed
     <string/>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_02">
+  <widget class="QCheckBox" name="s_Am_02">
    <property name="geometry">
     <rect>
      <x>1290</x>
@@ -3751,7 +4175,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_03">
+  <widget class="QCheckBox" name="s_Am_03">
    <property name="geometry">
     <rect>
      <x>1286</x>
@@ -3787,7 +4211,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_04">
+  <widget class="QCheckBox" name="s_Am_04">
    <property name="geometry">
     <rect>
      <x>1290</x>
@@ -3823,7 +4247,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_05">
+  <widget class="QCheckBox" name="s_Am_05">
    <property name="geometry">
     <rect>
      <x>2900</x>
@@ -3859,7 +4283,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_06">
+  <widget class="QCheckBox" name="s_Am_06">
    <property name="geometry">
     <rect>
      <x>530</x>
@@ -3895,7 +4319,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_07">
+  <widget class="QCheckBox" name="s_Am_07">
    <property name="geometry">
     <rect>
      <x>1400</x>
@@ -3931,7 +4355,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_08">
+  <widget class="QCheckBox" name="s_Am_08">
    <property name="geometry">
     <rect>
      <x>656</x>
@@ -3967,7 +4391,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_9">
+  <widget class="QCheckBox" name="s_Am_09">
    <property name="geometry">
     <rect>
      <x>673</x>
@@ -4003,7 +4427,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_10">
+  <widget class="QCheckBox" name="s_Am_10">
    <property name="geometry">
     <rect>
      <x>1479</x>
@@ -4039,7 +4463,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_11">
+  <widget class="QCheckBox" name="s_Am_11">
    <property name="geometry">
     <rect>
      <x>2790</x>
@@ -4075,7 +4499,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_12">
+  <widget class="QCheckBox" name="s_Am_12">
    <property name="geometry">
     <rect>
      <x>950</x>
@@ -4111,7 +4535,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_13">
+  <widget class="QCheckBox" name="s_Am_13">
    <property name="geometry">
     <rect>
      <x>1000</x>
@@ -4147,7 +4571,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_14">
+  <widget class="QCheckBox" name="s_Am_14">
    <property name="geometry">
     <rect>
      <x>1535</x>
@@ -4183,7 +4607,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_15">
+  <widget class="QCheckBox" name="s_Am_15">
    <property name="geometry">
     <rect>
      <x>2554</x>
@@ -4219,7 +4643,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_16">
+  <widget class="QCheckBox" name="s_Am_16">
    <property name="geometry">
     <rect>
      <x>537</x>
@@ -4255,7 +4679,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_17">
+  <widget class="QCheckBox" name="s_Am_17">
    <property name="geometry">
     <rect>
      <x>2085</x>
@@ -4291,7 +4715,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_18">
+  <widget class="QCheckBox" name="s_Am_18">
    <property name="geometry">
     <rect>
      <x>750</x>
@@ -4327,7 +4751,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_19">
+  <widget class="QCheckBox" name="s_Am_19">
    <property name="geometry">
     <rect>
      <x>2490</x>
@@ -4363,7 +4787,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_20">
+  <widget class="QCheckBox" name="s_Am_20">
    <property name="geometry">
     <rect>
      <x>1510</x>
@@ -4399,7 +4823,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="s_AM_21">
+  <widget class="QCheckBox" name="s_Am_21">
    <property name="geometry">
     <rect>
      <x>2820</x>
@@ -4435,9 +4859,1271 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
+  <widget class="QCheckBox" name="s_I_11">
+   <property name="geometry">
+    <rect>
+     <x>23</x>
+     <y>134</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/lib/pump_on_10x11.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/butons/pict/lib/pump_off_10x11.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_I_12">
+   <property name="geometry">
+    <rect>
+     <x>546</x>
+     <y>578</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/lib/pump_on_10x11.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/butons/pict/lib/pump_off_10x11.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_I_13">
+   <property name="geometry">
+    <rect>
+     <x>2150</x>
+     <y>56</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/lib/pump_on_10x11.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/butons/pict/lib/pump_off_10x11.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_I_01">
+   <property name="geometry">
+    <rect>
+     <x>486</x>
+     <y>410</y>
+     <width>20</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 20px;
+min-height: 32px;
+max-width: 20px;
+max-height: 32px;
+}
+QCheckBox:checked
+{
+	
+	
+	image: url(:/valves/valve_green_20x32.png);
+}
+
+QCheckBox:unchecked
+{
+	
+	image: url(:/valves/valve_off_20x32.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 20px;
+	width: 32px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>32</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_Q_01">
+   <property name="geometry">
+    <rect>
+     <x>505</x>
+     <y>418</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 16px;
+min-height: 16px;
+max-width: 16px;
+max-height: 16px;
+}
+QCheckBox:checked
+{
+	image: url(:/valves/lamp_green_16x16.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/valves/lamp_off_16x16.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 16px;
+	width: 16px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_I_02">
+   <property name="geometry">
+    <rect>
+     <x>671</x>
+     <y>423</y>
+     <width>20</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 20px;
+min-height: 32px;
+max-width: 20px;
+max-height: 32px;
+}
+QCheckBox:checked
+{
+	
+	
+	image: url(:/valves/valve_green_20x32.png);
+}
+
+QCheckBox:unchecked
+{
+	
+	image: url(:/valves/valve_off_20x32.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 20px;
+	width: 32px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_Q_02">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>431</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 16px;
+min-height: 16px;
+max-width: 16px;
+max-height: 16px;
+}
+QCheckBox:checked
+{
+	image: url(:/valves/lamp_green_16x16.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/valves/lamp_off_16x16.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 16px;
+	width: 16px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_Q_03">
+   <property name="geometry">
+    <rect>
+     <x>1082</x>
+     <y>440</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 16px;
+min-height: 16px;
+max-width: 16px;
+max-height: 16px;
+}
+QCheckBox:checked
+{
+	image: url(:/valves/lamp_green_16x16.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/valves/lamp_off_16x16.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 16px;
+	width: 16px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_I_03">
+   <property name="geometry">
+    <rect>
+     <x>1064</x>
+     <y>433</y>
+     <width>20</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 20px;
+min-height: 32px;
+max-width: 20px;
+max-height: 32px;
+}
+QCheckBox:checked
+{
+	
+	
+	image: url(:/valves/valve_green_20x32.png);
+}
+
+QCheckBox:unchecked
+{
+	
+	image: url(:/valves/valve_off_20x32.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 20px;
+	width: 32px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_I_04">
+   <property name="geometry">
+    <rect>
+     <x>1155</x>
+     <y>433</y>
+     <width>20</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 20px;
+min-height: 32px;
+max-width: 20px;
+max-height: 32px;
+}
+QCheckBox:checked
+{
+	
+	
+	image: url(:/valves/valve_green_20x32.png);
+}
+
+QCheckBox:unchecked
+{
+	
+	image: url(:/valves/valve_off_20x32.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 20px;
+	width: 32px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_Q_04">
+   <property name="geometry">
+    <rect>
+     <x>1174</x>
+     <y>441</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 16px;
+min-height: 16px;
+max-width: 16px;
+max-height: 16px;
+}
+QCheckBox:checked
+{
+	image: url(:/valves/lamp_green_16x16.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/valves/lamp_off_16x16.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 16px;
+	width: 16px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_Q_05">
+   <property name="geometry">
+    <rect>
+     <x>1397</x>
+     <y>456</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 16px;
+min-height: 16px;
+max-width: 16px;
+max-height: 16px;
+}
+QCheckBox:checked
+{
+	image: url(:/valves/lamp_green_16x16.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/valves/lamp_off_16x16.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 16px;
+	width: 16px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_I_05">
+   <property name="geometry">
+    <rect>
+     <x>1378</x>
+     <y>448</y>
+     <width>20</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 20px;
+min-height: 32px;
+max-width: 20px;
+max-height: 32px;
+}
+QCheckBox:checked
+{
+	
+	
+	image: url(:/valves/valve_green_20x32.png);
+}
+
+QCheckBox:unchecked
+{
+	
+	image: url(:/valves/valve_off_20x32.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 20px;
+	width: 32px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_Q_06">
+   <property name="geometry">
+    <rect>
+     <x>2617</x>
+     <y>443</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 16px;
+min-height: 16px;
+max-width: 16px;
+max-height: 16px;
+}
+QCheckBox:checked
+{
+	image: url(:/valves/lamp_green_16x16.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/valves/lamp_off_16x16.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 16px;
+	width: 16px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_I_06">
+   <property name="geometry">
+    <rect>
+     <x>2598</x>
+     <y>435</y>
+     <width>20</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 20px;
+min-height: 32px;
+max-width: 20px;
+max-height: 32px;
+}
+QCheckBox:checked
+{
+	
+	
+	image: url(:/valves/valve_green_20x32.png);
+}
+
+QCheckBox:unchecked
+{
+	
+	image: url(:/valves/valve_off_20x32.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 20px;
+	width: 32px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_Q_07">
+   <property name="geometry">
+    <rect>
+     <x>2710</x>
+     <y>457</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 16px;
+min-height: 16px;
+max-width: 16px;
+max-height: 16px;
+}
+QCheckBox:checked
+{
+	image: url(:/valves/lamp_green_16x16.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/valves/lamp_off_16x16.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 16px;
+	width: 16px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_I_07">
+   <property name="geometry">
+    <rect>
+     <x>2691</x>
+     <y>449</y>
+     <width>20</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 20px;
+min-height: 32px;
+max-width: 20px;
+max-height: 32px;
+}
+QCheckBox:checked
+{
+	
+	
+	image: url(:/valves/valve_green_20x32.png);
+}
+
+QCheckBox:unchecked
+{
+	
+	image: url(:/valves/valve_off_20x32.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 20px;
+	width: 32px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_Q_08">
+   <property name="geometry">
+    <rect>
+     <x>2898</x>
+     <y>355</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 16px;
+min-height: 16px;
+max-width: 16px;
+max-height: 16px;
+}
+QCheckBox:checked
+{
+	image: url(:/valves/lamp_green_16x16.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/valves/lamp_off_16x16.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 16px;
+	width: 16px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_I_08">
+   <property name="geometry">
+    <rect>
+     <x>2879</x>
+     <y>347</y>
+     <width>20</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 20px;
+min-height: 32px;
+max-width: 20px;
+max-height: 32px;
+}
+QCheckBox:checked
+{
+	
+	
+	image: url(:/valves/valve_green_20x32.png);
+}
+
+QCheckBox:unchecked
+{
+	
+	image: url(:/valves/valve_off_20x32.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 20px;
+	width: 32px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_Q_09">
+   <property name="geometry">
+    <rect>
+     <x>245</x>
+     <y>240</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 16px;
+min-height: 16px;
+max-width: 16px;
+max-height: 16px;
+}
+QCheckBox:checked
+{
+	image: url(:/valves/lamp_green_16x16.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/valves/lamp_off_16x16.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 16px;
+	width: 16px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_Q_10">
+   <property name="geometry">
+    <rect>
+     <x>2182</x>
+     <y>192</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 16px;
+min-height: 16px;
+max-width: 16px;
+max-height: 16px;
+}
+QCheckBox:checked
+{
+	image: url(:/valves/lamp_green_16x16.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/valves/lamp_off_16x16.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 16px;
+	width: 16px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cI_09">
+   <property name="geometry">
+    <rect>
+     <x>219</x>
+     <y>227</y>
+     <width>28</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../../../pict/lib/valves.qrc">
+     <normaloff>:/valves/valve_off_20x32.png</normaloff>:/valves/valve_off_20x32.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>32</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cI_10">
+   <property name="geometry">
+    <rect>
+     <x>2156</x>
+     <y>179</y>
+     <width>28</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../../../pict/lib/valves.qrc">
+     <normaloff>:/valves/valve_off_20x32.png</normaloff>:/valves/valve_off_20x32.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>32</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cI_14">
+   <property name="geometry">
+    <rect>
+     <x>3080</x>
+     <y>570</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../../../lib/picture.qrc">
+     <normaloff>:/butons/pict/lib/pump_off_26x30.png</normaloff>:/butons/pict/lib/pump_off_26x30.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>26</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="s_cI_17">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>569</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../../../lib/picture.qrc">
+     <normaloff>:/butons/pict/lib/pump_off_26x30.png</normaloff>:/butons/pict/lib/pump_off_26x30.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>26</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_Am_Q_09">
+   <property name="geometry">
+    <rect>
+     <x>235</x>
+     <y>208</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_Am_Q_10">
+   <property name="geometry">
+    <rect>
+     <x>2173</x>
+     <y>160</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_Am_M_14">
+   <property name="geometry">
+    <rect>
+     <x>3080</x>
+     <y>550</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="s_Am_M_17">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>550</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="s_pV_33">
+   <property name="geometry">
+    <rect>
+     <x>1262</x>
+     <y>97</y>
+     <width>20</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>160</red>
+         <green>160</green>
+         <blue>160</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>160</red>
+         <green>160</green>
+         <blue>160</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>160</red>
+         <green>160</green>
+         <blue>160</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>160</red>
+         <green>160</green>
+         <blue>160</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
+   <property name="value">
+    <number>100</number>
+   </property>
+   <property name="textVisible">
+    <bool>false</bool>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <property name="invertedAppearance">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QFrame" name="s_Tr_02">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>650</y>
+     <width>451</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QFrame" name="s_Tr_03">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>650</y>
+     <width>451</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QFrame" name="s_Tr_04">
+   <property name="geometry">
+    <rect>
+     <x>1410</x>
+     <y>650</y>
+     <width>451</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QFrame" name="s_Tr_05">
+   <property name="geometry">
+    <rect>
+     <x>1870</x>
+     <y>650</y>
+     <width>451</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QFrame" name="s_Tr_06">
+   <property name="geometry">
+    <rect>
+     <x>2330</x>
+     <y>650</y>
+     <width>451</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QFrame" name="s_Tr_07">
+   <property name="geometry">
+    <rect>
+     <x>2790</x>
+     <y>650</y>
+     <width>451</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
  </widget>
  <resources>
   <include location="mnemo/mnemo.qrc"/>
+  <include location="../../../pict/lib/valves.qrc"/>
   <include location="../../../lib/picture.qrc"/>
  </resources>
  <connections/>
