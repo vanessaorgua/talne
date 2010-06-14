@@ -11,6 +11,8 @@
 #include "about.h"
 #include "history.h"
 #include "alertviewdialog.h"
+#include "dlgbledingsetup.h"
+
 
 mMainForm::mMainForm(IoNetClient &source,QWidget *p): QWidget(p)
 ,src(source),m_ui(new Ui::Form)
@@ -31,6 +33,9 @@ mMainForm::mMainForm(IoNetClient &source,QWidget *p): QWidget(p)
     connect (m_ui->Exit,SIGNAL(clicked()),this,SLOT(slotExit()));
 
     connect(m_ui->bn_showAlert,SIGNAL(clicked()),this,SLOT(showAlert()));
+
+    connect(m_ui->bnBleding,SIGNAL(clicked()),this,SLOT(showBleding()));
+
 
     // відобразити мнемосхему
     m_ui->scrollArea->setWidget(new Mnemo(src,this));
@@ -133,3 +138,10 @@ void mMainForm::showAlert()
     AlertViewDialog d(alertList,this);
     d.exec();
 }
+
+void mMainForm::showBleding()
+{
+    dlgBledingSetup p(*src[0],this);
+    p.exec();
+}
+

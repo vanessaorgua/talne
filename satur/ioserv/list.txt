@@ -445,7 +445,7 @@ ss_s	915	Integer	300	0	-
 time_set	916	Bool	300	0	-
 Run	917	Bool	300	0	-
 Save	918	Bool	300	0	-
-X_zd_17	919	Real	300	0	-
+X_zd_17	919	Real	300	0	0 100
 Ton_X_17	921	Timer	300	0	-
 Toff_X_17	923	Timer	300	0	-
 V_21_min	925	Integer	300	0	V_21

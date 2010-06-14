@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dlgBledingSetup</class>
+ <widget class="QDialog" name="dlgBledingSetup">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>710</width>
+    <height>309</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Апарат</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Режим</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Кратність</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="6">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Старт</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="8">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Час</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="Line" name="line">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="Line" name="line_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="7">
+       <widget class="Line" name="line_4">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="5">
+       <widget class="Line" name="line_3">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>ПДБМ</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="9">
+       <widget class="Line" name="line_5">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="0" colspan="9">
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="2" column="2">
+       <widget class="QComboBox" name="en_p_01">
+        <item>
+         <property name="text">
+          <string>Ручний</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Автомат</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="4">
+       <widget class="QComboBox" name="kr_p_01">
+        <item>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="6">
+       <widget class="QTimeEdit" name="Tm_zd_01">
+        <property name="displayFormat">
+         <string>HH:mm:ss</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="8">
+       <widget class="QTimeEdit" name="Tp_zd_01">
+        <property name="displayFormat">
+         <string>mm:ss</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>Теплий дефекатр</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>Гарячий А</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>Гарячий Б</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="label_10">
+        <property name="text">
+         <string>1-й сатуратор</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="label_11">
+        <property name="text">
+         <string>Дефекатор 2 сат.</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0">
+       <widget class="QLabel" name="label_12">
+        <property name="text">
+         <string>2-й сатуратор</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="0">
+       <widget class="QLabel" name="label_13">
+        <property name="text">
+         <string>Відстійник 2 сат.</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QComboBox" name="en_p_02">
+        <item>
+         <property name="text">
+          <string>Ручний</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Автомат</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QComboBox" name="en_p_03">
+        <item>
+         <property name="text">
+          <string>Ручний</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Автомат</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="5" column="2">
+       <widget class="QComboBox" name="en_p_04">
+        <item>
+         <property name="text">
+          <string>Ручний</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Автомат</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="6" column="2">
+       <widget class="QComboBox" name="en_p_05">
+        <item>
+         <property name="text">
+          <string>Ручний</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Автомат</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="7" column="2">
+       <widget class="QComboBox" name="en_p_06">
+        <item>
+         <property name="text">
+          <string>Ручний</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Автомат</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="8" column="2">
+       <widget class="QComboBox" name="en_p_07">
+        <item>
+         <property name="text">
+          <string>Ручний</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Автомат</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="9" column="2">
+       <widget class="QComboBox" name="en_p_08">
+        <item>
+         <property name="text">
+          <string>Ручний</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Автомат</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="3" column="4">
+       <widget class="QComboBox" name="kr_p_02">
+        <item>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="4" column="4">
+       <widget class="QComboBox" name="kr_p_03">
+        <item>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="5" column="4">
+       <widget class="QComboBox" name="kr_p_04">
+        <item>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="6" column="4">
+       <widget class="QComboBox" name="kr_p_05">
+        <item>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="7" column="4">
+       <widget class="QComboBox" name="kr_p_06">
+        <item>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="8" column="4">
+       <widget class="QComboBox" name="kr_p_07">
+        <item>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="9" column="4">
+       <widget class="QComboBox" name="kr_p_08">
+        <item>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="3" column="6">
+       <widget class="QTimeEdit" name="Tm_zd_02">
+        <property name="displayFormat">
+         <string>HH:mm:ss</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="6">
+       <widget class="QTimeEdit" name="Tm_zd_03">
+        <property name="displayFormat">
+         <string>HH:mm:ss</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="6">
+       <widget class="QTimeEdit" name="Tm_zd_04">
+        <property name="displayFormat">
+         <string>HH:mm:ss</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="6">
+       <widget class="QTimeEdit" name="Tm_zd_05">
+        <property name="displayFormat">
+         <string>HH:mm:ss</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="6">
+       <widget class="QTimeEdit" name="Tm_zd_06">
+        <property name="displayFormat">
+         <string>HH:mm:ss</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="6">
+       <widget class="QTimeEdit" name="Tm_zd_07">
+        <property name="displayFormat">
+         <string>HH:mm:ss</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="6">
+       <widget class="QTimeEdit" name="Tm_zd_08">
+        <property name="displayFormat">
+         <string>HH:mm:ss</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="8">
+       <widget class="QTimeEdit" name="Tp_zd_02">
+        <property name="displayFormat">
+         <string>mm:ss</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="8">
+       <widget class="QTimeEdit" name="Tp_zd_03">
+        <property name="displayFormat">
+         <string>mm:ss</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="8">
+       <widget class="QTimeEdit" name="Tp_zd_04">
+        <property name="displayFormat">
+         <string>mm:ss</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="8">
+       <widget class="QTimeEdit" name="Tp_zd_05">
+        <property name="displayFormat">
+         <string>mm:ss</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="8">
+       <widget class="QTimeEdit" name="Tp_zd_06">
+        <property name="displayFormat">
+         <string>mm:ss</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="8">
+       <widget class="QTimeEdit" name="Tp_zd_07">
+        <property name="displayFormat">
+         <string>mm:ss</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="8">
+       <widget class="QTimeEdit" name="Tp_zd_08">
+        <property name="displayFormat">
+         <string>mm:ss</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1" rowspan="8">
+       <widget class="Line" name="line_6">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3" rowspan="8">
+       <widget class="Line" name="line_7">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="5" rowspan="8">
+       <widget class="Line" name="line_8">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="7" rowspan="8">
+       <widget class="Line" name="line_9">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="1" colspan="2">
+    <widget class="QTableView" name="tableView"/>
+   </item>
+   <item row="1" column="2">
+    <widget class="QPushButton" name="Exit">
+     <property name="text">
+      <string>Закрити</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Exit</sender>
+   <signal>clicked()</signal>
+   <receiver>dlgBledingSetup</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>583</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>354</x>
+     <y>160</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

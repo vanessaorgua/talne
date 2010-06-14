@@ -33,6 +33,7 @@ public slots:
     void slotCallPumpCtrl();
     void slotCallQ09();
     void slotCallQ10();
+    void slotCallX_17();
 
 private:
     Ui::mnemo *m_ui;

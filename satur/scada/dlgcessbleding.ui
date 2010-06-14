@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dlgCessBleding</class>
+ <widget class="QDialog" name="dlgCessBleding">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>270</width>
+    <height>255</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Продувка відстійника</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0" colspan="2">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Упавління клапаном</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QSlider" name="sX_17">
+        <property name="maximum">
+         <number>4000</number>
+        </property>
+        <property name="singleStep">
+         <number>1</number>
+        </property>
+        <property name="pageStep">
+         <number>40</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="dX_17">
+        <property name="decimals">
+         <number>0</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>173</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="4" column="1">
+    <widget class="QPushButton" name="Exit">
+     <property name="text">
+      <string>Закрити</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="2">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="title">
+      <string>Параметри</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="6" column="1" colspan="2">
+       <widget class="QComboBox" name="Am_17">
+        <item>
+         <property name="text">
+          <string>Ручний</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Автомат</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Режим</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1" colspan="2">
+       <widget class="QDoubleSpinBox" name="X_zd_17"/>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>% відкриття</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1" colspan="2">
+       <widget class="QTimeEdit" name="Ton_X_17">
+        <property name="displayFormat">
+         <string>HH:mm:ss</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="1" colspan="2">
+       <widget class="QTimeEdit" name="Toff_X_17">
+        <property name="displayFormat">
+         <string>HH:mm:ss</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Час відкриття</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Час закриття</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Exit</sender>
+   <signal>clicked()</signal>
+   <receiver>dlgCessBleding</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>368</x>
+     <y>291</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>233</x>
+     <y>168</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
