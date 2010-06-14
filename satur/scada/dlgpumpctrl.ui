@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dlgPumpCtrl</class>
+ <widget class="QDialog" name="dlgPumpCtrl">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>306</width>
+    <height>284</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="0" column="0" colspan="2">
+    <widget class="QFrame" name="frame">
+     <property name="minimumSize">
+      <size>
+       <width>161</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>68</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QFrame" name="mnemo">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>135</width>
+          <height>135</height>
+         </size>
+        </property>
+        <property name="baseSize">
+         <size>
+          <width>135</width>
+          <height>135</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QFrame
+{
+	border-image: url(:/mnemo/pumpCtrl.svg);
+	background-repeat: no-repeat;
+	backgrount-align: center center
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QProgressBar" name="s_pV">
+         <property name="geometry">
+          <rect>
+           <x>27</x>
+           <y>18</y>
+           <width>21</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="maximum">
+          <number>4000</number>
+         </property>
+         <property name="value">
+          <number>500</number>
+         </property>
+         <property name="textVisible">
+          <bool>false</bool>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="s_I">
+         <property name="geometry">
+          <rect>
+           <x>85</x>
+           <y>99</y>
+           <width>21</width>
+           <height>26</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QCheckBox{
+min-width: 21px;
+min-height: 26px;
+max-width: 21px;
+max-height: 26px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/bool_green_true_48x48.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/butons/pict/bool_green_false_48x48.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QSlider" name="s_SP_max">
+         <property name="geometry">
+          <rect>
+           <x>45</x>
+           <y>14</y>
+           <width>20</width>
+           <height>119</height>
+          </rect>
+         </property>
+         <property name="whatsThis">
+          <string>Постійне завдання на перший параметер</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QSlider::groove:vertical {
+     background: rgba(0, 0, 0, 0);
+/*     position: absolute;  абсолютная позиция в 4px слева и справа от виджета. установка полей виджета также будет работать... */
+/*     left: 4px; right: 4px;*/
+ }
+
+ QSlider::handle:vertical {
+	
+	image: url(:/slider/pict/SP_1.png);
+ }
+</string>
+         </property>
+         <property name="maximum">
+          <number>4000</number>
+         </property>
+         <property name="singleStep">
+          <number>1</number>
+         </property>
+         <property name="pageStep">
+          <number>40</number>
+         </property>
+         <property name="value">
+          <number>0</number>
+         </property>
+         <property name="sliderPosition">
+          <number>0</number>
+         </property>
+         <property name="tracking">
+          <bool>false</bool>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="invertedAppearance">
+          <bool>false</bool>
+         </property>
+         <property name="invertedControls">
+          <bool>false</bool>
+         </property>
+         <property name="tickPosition">
+          <enum>QSlider::NoTicks</enum>
+         </property>
+        </widget>
+        <widget class="QSlider" name="s_SP_min">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>14</y>
+           <width>20</width>
+           <height>119</height>
+          </rect>
+         </property>
+         <property name="whatsThis">
+          <string>Розрахункове завдання</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QSlider::groove:vertical {
+     background: rgba(0, 0, 0, 0);
+/*     position: absolute;  абсолютная позиция в 4px слева и справа от виджета. установка полей виджета также будет работать... */
+/*     left: 4px; right: 4px;*/
+ }
+
+ QSlider::handle:vertical {
+	image: url(:/slider/pict/SPR_1.png);
+ }
+</string>
+         </property>
+         <property name="maximum">
+          <number>4000</number>
+         </property>
+         <property name="singleStep">
+          <number>1</number>
+         </property>
+         <property name="pageStep">
+          <number>80</number>
+         </property>
+         <property name="value">
+          <number>2500</number>
+         </property>
+         <property name="sliderPosition">
+          <number>2500</number>
+         </property>
+         <property name="tracking">
+          <bool>false</bool>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="invertedAppearance">
+          <bool>false</bool>
+         </property>
+         <property name="invertedControls">
+          <bool>false</bool>
+         </property>
+         <property name="tickPosition">
+          <enum>QSlider::NoTicks</enum>
+         </property>
+         <property name="tickInterval">
+          <number>0</number>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="s_lV">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>10</y>
+           <width>45</width>
+           <height>24</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>67</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Завдвння на рівень</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Мінімум</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QDoubleSpinBox" name="s_sSP_min">
+        <property name="decimals">
+         <number>0</number>
+        </property>
+        <property name="maximum">
+         <double>100.000000000000000</double>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Максимум</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QDoubleSpinBox" name="s_sSP_max">
+        <property name="decimals">
+         <number>0</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="title">
+      <string>Управління</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0" rowspan="2">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Режим</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="s_AM">
+        <item>
+         <property name="text">
+          <string>Руч</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Авт</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Насос</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1" rowspan="2">
+       <widget class="QComboBox" name="s_R_M">
+        <item>
+         <property name="text">
+          <string>Виключено</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Включено</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <spacer name="horizontalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>139</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="1">
+    <widget class="QPushButton" name="Exit">
+     <property name="text">
+      <string>Вихід</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Exit</sender>
+   <signal>clicked()</signal>
+   <receiver>dlgPumpCtrl</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>318</x>
+     <y>281</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

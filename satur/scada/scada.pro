@@ -16,19 +16,22 @@ HEADERS += mainform.h \
     sparamdialog.h \
     about.h \
     history.h \
-    alertviewdialog.h
+    alertviewdialog.h \
+    dlgpumpctrl.h
 FORMS += mainform.ui \
     mnemo.ui \
     sparamdialog.ui \
     about.ui \
     history.ui \
-    alertviewdialog.ui
+    alertviewdialog.ui \
+    dlgpumpctrl.ui
 SOURCES += main.cpp \
     mainform.cpp \
     mnemo.cpp \
     sparamdialog.cpp \
     history.cpp \
-    alertviewdialog.cpp
+    alertviewdialog.cpp \
+    dlgpumpctrl.cpp
 RESOURCES += mnemo/mnemo.qrc \
     ../../../lib/picture.qrc \
     ../../../pict/lib/valves.qrc \

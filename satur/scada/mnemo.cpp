@@ -6,6 +6,7 @@
 
 #include "trendchart.h"
 #include "panelReg.h"
+#include "dlgpumpctrl.h"
 
 #include <QVBoxLayout>
 #include <QPalette>
@@ -44,6 +45,9 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
     {
         connect(p,SIGNAL(clicked()),this,SLOT(slotCallReg()));
     }
+
+    connect(m_ui->s_cI_14,SIGNAL(clicked()),this,SLOT(slotCallPumpCtrl()));
+    connect(m_ui->s_cI_17,SIGNAL(clicked()),this,SLOT(slotCallPumpCtrl()));
 
     le      << m_ui->s_V_01
             << m_ui->s_V_02
@@ -252,6 +256,46 @@ void Mnemo::updateDataRaw()
     m_ui->s_cI_17->setIcon(QIcon(QPixmap(s[0]->getValue16("I_17")
                 ?":/butons/pict/lib/pump_green_26x30.png":":/butons/pict/lib/pump_off_26x30.png")));
 
+    // індикація дискретних сигналів ЧП насосів
+    QVector<QLineEdit*> s_drv;
+        s_drv <<    m_ui->s_V_39
+            << m_ui->s_V_40
+            << m_ui->s_V_43
+            << m_ui->s_V_44;
+
+
+    QStringList t_w;
+    t_w << "I_19"
+                << "I_25"
+                << "I_22"
+                << "I_28";
+    QStringList t_a;
+    t_a << "I_21"
+            << "I_27"
+            << "I_24"
+            << "I_30";
+
+    for(int i=0;i<4;++i)
+    {
+        QPalette pal;
+        if(s[0]->getValue16(t_a[i]))
+        {
+            pal.setColor(QPalette::Base,Qt::red);
+        }
+        else
+        {
+            if(s[0]->getValue16(t_w[i]))
+            {
+                pal.setColor(QPalette::Base,Qt::white);
+            }
+            else
+            {
+                pal.setColor(QPalette::Base,Qt::cyan);
+            }
+        }
+        s_drv[i]->setPalette(pal);
+    }
+
 }
 
 void Mnemo::updateDataScaled() // слот обновляє дані на мнемосхемі
@@ -285,3 +329,29 @@ void Mnemo::slotCallReg()
     p.exec();
 }
 
+void Mnemo::slotCallPumpCtrl()
+{
+    QStringList v;
+    if(sender()->objectName()=="s_cI_14")
+    {
+        v << "V_21"
+                << "I_14"
+                << "R_M_14"
+                << "Am_M_14"
+                << "V_21_min"
+                << "V_21_max";
+    }
+    else
+    {
+        v << "V_25"
+                << "I_17"
+                << "R_M_17"
+                << "Am_M_17"
+                << "V_25_min"
+                << "V_25_max";
+
+    }
+
+    dlgPumpCtrl p(*s[0],v,this);
+    p.exec();
+}

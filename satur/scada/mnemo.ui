@@ -780,7 +780,7 @@
   <widget class="QLineEdit" name="s_V_39">
    <property name="geometry">
     <rect>
-     <x>680</x>
+     <x>750</x>
      <y>590</y>
      <width>41</width>
      <height>24</height>
@@ -3468,7 +3468,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -3485,7 +3485,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QPushButton" name="s_cX_01">
@@ -4155,7 +4155,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -4172,7 +4172,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_03">
@@ -4191,7 +4191,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -4208,7 +4208,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_04">
@@ -4227,7 +4227,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -4244,7 +4244,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_05">
@@ -4263,7 +4263,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -4280,7 +4280,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_06">
@@ -4299,7 +4299,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -4316,7 +4316,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_07">
@@ -4335,7 +4335,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -4352,7 +4352,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_08">
@@ -4371,7 +4371,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -4388,7 +4388,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_09">
@@ -4407,7 +4407,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -4424,7 +4424,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_10">
@@ -4443,7 +4443,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -4460,7 +4460,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_11">
@@ -4479,7 +4479,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -4496,7 +4496,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_12">
@@ -4515,7 +4515,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -4532,7 +4532,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_13">
@@ -4551,7 +4551,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -4568,7 +4568,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_14">
@@ -4587,7 +4587,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -4604,7 +4604,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_15">
@@ -4623,7 +4623,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -4640,7 +4640,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_16">
@@ -4659,7 +4659,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -4676,7 +4676,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_17">
@@ -4695,7 +4695,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -4712,7 +4712,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_18">
@@ -4731,7 +4731,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -4748,7 +4748,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_19">
@@ -4767,7 +4767,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -4784,7 +4784,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_20">
@@ -4803,7 +4803,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -4820,7 +4820,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_21">
@@ -4839,7 +4839,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -4856,7 +4856,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_I_11">
@@ -5807,7 +5807,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -5824,7 +5824,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_Q_10">
@@ -5843,7 +5843,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -5860,7 +5860,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_M_14">
@@ -5879,7 +5879,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -5896,7 +5896,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="s_Am_M_17">
@@ -5915,7 +5915,7 @@ min-height: 20px;
 max-width: 18px;
 max-height: 20px;
 }
-QCheckBox:checked
+QCheckBox:unchecked
 {
 	image: url(:/butons/pict/hand_18x20.png);
 }
@@ -5932,7 +5932,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
    <property name="checked">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QProgressBar" name="s_pV_33">
