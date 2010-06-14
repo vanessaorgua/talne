@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>dlgPumpCtrl</class>
- <widget class="QDialog" name="dlgPumpCtrl">
+ <class>dlgCessCtrl</class>
+ <widget class="QDialog" name="dlgCessCtrl">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>306</width>
-    <height>284</height>
+    <width>442</width>
+    <height>417</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -52,8 +52,8 @@
         </property>
         <property name="minimumSize">
          <size>
-          <width>135</width>
-          <height>135</height>
+          <width>360</width>
+          <height>240</height>
          </size>
         </property>
         <property name="baseSize">
@@ -65,7 +65,7 @@
         <property name="styleSheet">
          <string notr="true">QFrame
 {
-	border-image: url(:/mnemo/pumpCtrl.svg);
+	border-image: url(:/mnemo/CessPool.svg);
 	background-repeat: no-repeat;
 }</string>
         </property>
@@ -78,10 +78,10 @@
         <widget class="QProgressBar" name="s_pV">
          <property name="geometry">
           <rect>
-           <x>27</x>
-           <y>18</y>
+           <x>223</x>
+           <y>38</y>
            <width>21</width>
-           <height>111</height>
+           <height>96</height>
           </rect>
          </property>
          <property name="maximum">
@@ -97,21 +97,21 @@
           <enum>Qt::Vertical</enum>
          </property>
         </widget>
-        <widget class="QCheckBox" name="s_I">
+        <widget class="QCheckBox" name="s_I_11">
          <property name="geometry">
           <rect>
-           <x>85</x>
-           <y>99</y>
-           <width>21</width>
-           <height>26</height>
+           <x>12</x>
+           <y>11</y>
+           <width>16</width>
+           <height>16</height>
           </rect>
          </property>
          <property name="styleSheet">
           <string notr="true">QCheckBox{
-min-width: 21px;
-min-height: 26px;
-max-width: 21px;
-max-height: 26px;
+min-width: 16px;
+min-height: 16px;
+max-width: 16px;
+max-height: 16px;
 }
 QCheckBox:checked
 {
@@ -142,10 +142,10 @@ QCheckBox:indicator
         <widget class="QSlider" name="s_SP_max">
          <property name="geometry">
           <rect>
-           <x>45</x>
-           <y>14</y>
+           <x>241</x>
+           <y>34</y>
            <width>20</width>
-           <height>119</height>
+           <height>104</height>
           </rect>
          </property>
          <property name="whatsThis">
@@ -198,10 +198,10 @@ QCheckBox:indicator
         <widget class="QSlider" name="s_SP_min">
          <property name="geometry">
           <rect>
-           <x>10</x>
-           <y>14</y>
+           <x>206</x>
+           <y>34</y>
            <width>20</width>
-           <height>119</height>
+           <height>104</height>
           </rect>
          </property>
          <property name="whatsThis">
@@ -229,10 +229,10 @@ QCheckBox:indicator
           <number>80</number>
          </property>
          <property name="value">
-          <number>2500</number>
+          <number>0</number>
          </property>
          <property name="sliderPosition">
-          <number>2500</number>
+          <number>0</number>
          </property>
          <property name="tracking">
           <bool>false</bool>
@@ -256,11 +256,75 @@ QCheckBox:indicator
         <widget class="QLineEdit" name="s_lV">
          <property name="geometry">
           <rect>
-           <x>70</x>
-           <y>10</y>
+           <x>211</x>
+           <y>12</y>
            <width>45</width>
            <height>24</height>
           </rect>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="s_I_09">
+         <property name="geometry">
+          <rect>
+           <x>283</x>
+           <y>142</y>
+           <width>25</width>
+           <height>46</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QCheckBox{
+min-width: 25px;
+min-height: 46px;
+max-width: 25px;
+max-height: 46px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/klapan_diskrette_vert_on_na_25x26.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/butons/pict/klapan_diskrette_vert_off_na_25x46.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="s_V_26_t">
+         <property name="geometry">
+          <rect>
+           <x>35</x>
+           <y>132</y>
+           <width>113</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
          </property>
         </widget>
        </widget>
@@ -318,6 +382,33 @@ QCheckBox:indicator
         </property>
        </widget>
       </item>
+      <item row="3" column="0">
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Час відстою</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QTimeEdit" name="s_V_26_tz">
+        <property name="displayFormat">
+         <string>hh:mm:ss</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </widget>
    </item>
@@ -335,7 +426,7 @@ QCheckBox:indicator
        </widget>
       </item>
       <item row="0" column="1">
-       <widget class="QComboBox" name="s_AM">
+       <widget class="QComboBox" name="s_Am_Q_09">
         <item>
          <property name="text">
           <string>Руч</string>
@@ -351,77 +442,64 @@ QCheckBox:indicator
       <item row="2" column="0">
        <widget class="QLabel" name="label_4">
         <property name="text">
-         <string>Насос</string>
+         <string>Клапан</string>
         </property>
        </widget>
       </item>
       <item row="1" column="1" rowspan="2">
-       <widget class="QComboBox" name="s_R_M">
+       <widget class="QComboBox" name="s_Q_09">
         <item>
          <property name="text">
-          <string>Виключено</string>
+          <string>Закрито</string>
          </property>
         </item>
         <item>
          <property name="text">
-          <string>Включено</string>
+          <string>Відкрито</string>
          </property>
         </item>
        </widget>
       </item>
+      <item row="3" column="1">
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
      </layout>
     </widget>
    </item>
-   <item row="3" column="0">
-    <spacer name="horizontalSpacer_3">
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
-     </property>
-     <property name="sizeHint" stdset="0">
-      <size>
-       <width>139</width>
-       <height>20</height>
-      </size>
-     </property>
-    </spacer>
-   </item>
-   <item row="3" column="1">
-    <widget class="QPushButton" name="Exit">
+   <item row="2" column="1">
+    <widget class="QPushButton" name="Close">
      <property name="text">
       <string>Закрити</string>
      </property>
     </widget>
-   </item>
-   <item row="2" column="0" colspan="2">
-    <spacer name="verticalSpacer">
-     <property name="orientation">
-      <enum>Qt::Vertical</enum>
-     </property>
-     <property name="sizeHint" stdset="0">
-      <size>
-       <width>20</width>
-       <height>40</height>
-      </size>
-     </property>
-    </spacer>
    </item>
   </layout>
  </widget>
  <resources/>
  <connections>
   <connection>
-   <sender>Exit</sender>
+   <sender>Close</sender>
    <signal>clicked()</signal>
-   <receiver>dlgPumpCtrl</receiver>
+   <receiver>dlgCessCtrl</receiver>
    <slot>accept()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>318</x>
-     <y>281</y>
+     <x>518</x>
+     <y>421</y>
     </hint>
     <hint type="destinationlabel">
-     <x>199</x>
-     <y>149</y>
+     <x>298</x>
+     <y>220</y>
     </hint>
    </hints>
   </connection>

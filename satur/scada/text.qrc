@@ -6,5 +6,6 @@
     <qresource prefix="/">
         <file>text/reg.txt</file>
         <file>mnemo/pumpCtrl.svg</file>
+        <file>mnemo/CessPool.svg</file>
     </qresource>
 </RCC>

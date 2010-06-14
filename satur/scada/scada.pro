@@ -18,7 +18,8 @@ HEADERS += mainform.h \
     history.h \
     alertviewdialog.h \
     dlgpumpctrl.h \
-    dlgsusctrl.h
+    dlgsusctrl.h \
+    dlgcessctrl.h
 FORMS += mainform.ui \
     mnemo.ui \
     sparamdialog.ui \
@@ -26,7 +27,8 @@ FORMS += mainform.ui \
     history.ui \
     alertviewdialog.ui \
     dlgpumpctrl.ui \
-    dlgsusctrl.ui
+    dlgsusctrl.ui \
+    dlgcessctrl.ui
 SOURCES += main.cpp \
     mainform.cpp \
     mnemo.cpp \
@@ -34,7 +36,8 @@ SOURCES += main.cpp \
     history.cpp \
     alertviewdialog.cpp \
     dlgpumpctrl.cpp \
-    dlgsusctrl.cpp
+    dlgsusctrl.cpp \
+    dlgcessctrl.cpp
 RESOURCES += mnemo/mnemo.qrc \
     ../../../lib/picture.qrc \
     ../../../pict/lib/valves.qrc \

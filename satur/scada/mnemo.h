@@ -31,6 +31,7 @@ public slots:
     void updateDataScaled(); // слот обновляє дані на мнемосхемі
     void slotCallReg();
     void slotCallPumpCtrl();
+    void slotCallQ09();
     void slotCallQ10();
 
 private:
