@@ -67,7 +67,6 @@
 {
 	border-image: url(:/mnemo/pumpCtrl.svg);
 	background-repeat: no-repeat;
-	backgrount-align: center center
 }</string>
         </property>
         <property name="frameShape">

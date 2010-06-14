@@ -31,6 +31,8 @@ public slots:
     void updateDataScaled(); // слот обновляє дані на мнемосхемі
     void slotCallReg();
     void slotCallPumpCtrl();
+    void slotCallQ10();
+
 private:
     Ui::mnemo *m_ui;
     IoNetClient &s;
