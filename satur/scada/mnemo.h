@@ -34,7 +34,7 @@ public slots:
     void slotCallQ09();
     void slotCallQ10();
     void slotCallX_17();
-
+    void slotCallVb();
 private:
     Ui::mnemo *m_ui;
     IoNetClient &s;
@@ -47,6 +47,7 @@ private:
     QVector<QProgressBar*> pb;
 
     QVector<TrendChart*> trc;
+    QVector<QPushButton*> s_cI;
 
 };
 

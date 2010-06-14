@@ -12,7 +12,7 @@
 #include "dlgsusctrl.h"
 #include "dlgcessctrl.h"
 #include "dlgcessbleding.h"
-
+#include "dlgvbctrl.h"
 #include <QVBoxLayout>
 #include <QPalette>
 
@@ -56,6 +56,21 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
     connect(m_ui->s_cI_09,SIGNAL(clicked()),this,SLOT(slotCallQ09()));
     connect(m_ui->s_cI_10,SIGNAL(clicked()),this,SLOT(slotCallQ10()));
     connect(m_ui->s_cX_17,SIGNAL(clicked()),this,SLOT(slotCallX_17()));
+
+    s_cI    << m_ui->s_cI_01
+            << m_ui->s_cI_02
+            << m_ui->s_cI_03
+            << m_ui->s_cI_04
+            << m_ui->s_cI_05
+            << m_ui->s_cI_06
+            << m_ui->s_cI_07
+            << m_ui->s_cI_08;
+    foreach(QPushButton *p,s_cI)
+    {
+        connect(p,SIGNAL(clicked()),this,SLOT(slotCallVb()));
+    }
+
+    s_cI    << m_ui->s_cI_09;
 
 
     le      << m_ui->s_V_01
@@ -160,14 +175,6 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
                 << m_ui->s_Am_Q_10
                 << m_ui->s_Am_M_14
                 << m_ui->s_Am_M_17
-                << m_ui->s_I_01
-                << m_ui->s_I_02
-                << m_ui->s_I_03
-                << m_ui->s_I_04
-                << m_ui->s_I_05
-                << m_ui->s_I_06
-                << m_ui->s_I_07
-                << m_ui->s_I_08
                 << m_ui->s_I_11
                 << m_ui->s_I_12
                 << m_ui->s_I_13
@@ -181,7 +188,17 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
                 << m_ui->s_Q_08
                 << m_ui->s_Q_09
                 << m_ui->s_Q_10;
-    pb
+/*
+                << m_ui->s_I_01
+                << m_ui->s_I_02
+                << m_ui->s_I_03
+                << m_ui->s_I_04
+                << m_ui->s_I_05
+                << m_ui->s_I_06
+                << m_ui->s_I_07
+                << m_ui->s_I_08 */
+
+        pb
             << m_ui->s_pV_19
             << m_ui->s_pV_20
             << m_ui->s_pV_21
@@ -253,8 +270,11 @@ void Mnemo::updateDataRaw()
         p->setPalette(s[0]->getValue16(QString("Amr_%1").arg(p->objectName().right(2)))?pal_w:pal_y);
     }
 
-    m_ui->s_cI_09->setIcon(QIcon(QPixmap(s[0]->getValue16("I_09")
+    foreach(QPushButton* p,s_cI)
+    {
+        p->setIcon(QIcon(QPixmap(s[0]->getValue16(p->objectName().right(p->objectName().size()-3))
                 ?":/valves/valve_green_20x32.png":":/valves/valve_off_20x32.png")));
+    }
 
     m_ui->s_cI_10->setIcon(QIcon(QPixmap(s[0]->getValue16("I_10")
                 ?":/valves/valve_green_20x32.png":":/valves/valve_off_20x32.png")));
@@ -384,4 +404,10 @@ void Mnemo::slotCallX_17()
     p.exec();
 }
 
+
+void Mnemo::slotCallVb()
+{
+    dlgVbCtrl p(*s[0],sender()->objectName().right(2).toInt(),this);
+    p.exec();
+}
 
