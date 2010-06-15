@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>531</width>
-    <height>360</height>
+    <width>750</width>
+    <height>599</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -32,6 +32,146 @@
          <enum>QFrame::Sunken</enum>
         </property>
         <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QPushButton" name="reg_1">
+           <property name="text">
+            <string>Регулятор 1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="reg_2">
+           <property name="text">
+            <string>Регулятор 2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="reg_3">
+           <property name="text">
+            <string>Регулятор 3</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="reg_4">
+           <property name="text">
+            <string>Регулятор 4</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="reg_5">
+           <property name="text">
+            <string>Регулятор 5</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="reg_6">
+           <property name="text">
+            <string>Регулятор 6</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="reg_7">
+           <property name="text">
+            <string>Регулятор 7</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="reg_8">
+           <property name="text">
+            <string>Регулятор 8</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="reg_9">
+           <property name="text">
+            <string>Регулятор 9</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="reg_10">
+           <property name="text">
+            <string>Регулятор 10</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="reg_11">
+           <property name="text">
+            <string>Регулятор 11</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="reg_17">
+           <property name="text">
+            <string>Регулятор 17</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="reg_18">
+           <property name="text">
+            <string>Регулятор 18</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="reg_15">
+           <property name="text">
+            <string>Регулятор 15</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="reg_13">
+           <property name="text">
+            <string>Регулятор 13</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="reg_12">
+           <property name="text">
+            <string>Регулятор 12</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="reg_19">
+           <property name="text">
+            <string>Регулятор 19</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="reg_14">
+           <property name="text">
+            <string>Регулятор 14</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="reg_16">
+           <property name="text">
+            <string>Регулятор 16</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="reg_20">
+           <property name="text">
+            <string>Регулятор 20</string>
+           </property>
+          </widget>
+         </item>
          <item>
           <spacer name="verticalSpacer">
            <property name="orientation">
@@ -83,6 +223,13 @@
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_3">
          <item>
+          <widget class="QPushButton" name="bleding">
+           <property name="text">
+            <string>Продувки</string>
+           </property>
+          </widget>
+         </item>
+         <item>
           <spacer name="verticalSpacer_3">
            <property name="orientation">
             <enum>Qt::Vertical</enum>
@@ -117,7 +264,7 @@
    <item row="1" column="1">
     <widget class="QPushButton" name="Exit">
      <property name="text">
-      <string>Exit</string>
+      <string>Close</string>
      </property>
     </widget>
    </item>

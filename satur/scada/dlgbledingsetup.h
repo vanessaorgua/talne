@@ -24,6 +24,7 @@ public slots:
     //void slotUpdate(); // в цьому слоті буде поновлюватися інформація на картинці
     void slotSet(int);
     void slotSet(QTime);
+    void updateList();
 
 protected:
     void changeEvent(QEvent *e);

@@ -14,6 +14,28 @@ RHistorySelect::RHistorySelect(IoDev &src,struct trendinfo *tp,QWidget *p /*=NUL
 {
     m_ui->setupUi(this);
 
+    connect(m_ui->reg_1,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->reg_2,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->reg_3,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->reg_4,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->reg_5,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->reg_6,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->reg_7,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->reg_8,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->reg_9,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->reg_10,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->reg_11,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->reg_12,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->reg_13,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->reg_14,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->reg_15,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->reg_16,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->reg_17,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->reg_18,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->reg_19,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->reg_20,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->bleding,SIGNAL(clicked()),this,SLOT(slotAccept()));
+
 }
 
 RHistorySelect::~RHistorySelect()

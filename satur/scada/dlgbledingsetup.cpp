@@ -87,7 +87,7 @@ dlgBledingSetup::dlgBledingSetup(IoDev &source,QWidget *parent) :
     QDateTime ct=QDateTime::currentDateTime();
     time << ct.date().year() << ct.date().month() << ct.date().day() << ct.time().hour() << ct.time().minute() << ct.time().second() << -1;
     src.sendValue("yy_s",time);
-
+    updateList();
 }
 
 dlgBledingSetup::~dlgBledingSetup()
@@ -121,6 +121,7 @@ void dlgBledingSetup::slotSet(int v)
         src.sendValue(sender()->objectName(),vi[v]);
     }
     src.sendValue("Save",qint16(-1));
+    updateList();
 }
 
 void dlgBledingSetup::slotSet(QTime v)
@@ -133,4 +134,55 @@ void dlgBledingSetup::slotSet(QTime v)
 
     src.sendValue(sender()->objectName(),t);
     src.sendValue("Save",qint16(-1));
+    updateList();
+}
+
+void dlgBledingSetup::updateList()
+{
+    QStringList tankName        ;
+    tankName << tr("6-та зона ПДБМ")
+            << tr("Теплий дефекатор")
+            << tr("Гарячий А")
+            << tr("Гарячий Б")
+            << tr("1-й сатуратор")
+            << tr("Дефекатор 2 сат.")
+            << tr("2-й сатуратор")
+            << tr("Відстійник 2-сат.");
+
+    QVector<qint16> vi;
+    vi << 1440 << 720 << 480 << 360 << 240  << 180 << 120;
+
+
+    QVector<int> time;
+    QVector<QString> name;
+    for(int i=0;i<8;++i)
+    {
+        if(cb_e[i]->currentIndex()) // перевірити чи включена продувка
+        {
+            int start = QTime(0,0,0,0).msecsTo(te_m[i]->time())/60000; // отримати час пуску
+            int kr = vi[cb_k[i]->currentIndex()];  // отримати кратність
+            for(int j=0;j<1440/kr;++j) // крутить в циклі
+            {
+                int k;
+                for(k=0;k<time.size();++k) // знайти наше місце
+                {
+                    if(time[k]>start)
+                        break;
+                }
+                // вставити знайдені значення
+
+                time.insert(k,start);
+                name.insert(k,tankName[i]);
+                // розрахувати
+                start+=kr;
+                start %=1440;
+            }
+        }
+    }
+    ui->teList->clear();
+    for(int i=0;i<time.size();++i)
+    {
+        ui->teList->append(QString("%1. %2:%3\t%4").arg(i+1,3).arg(time[i]/60,2,10,QChar('0')).arg(time[i]%60,2,10,QChar('0')).arg(name[i]));
+    }
+
 }

@@ -7,5 +7,26 @@
         <file>text/reg.txt</file>
         <file>mnemo/pumpCtrl.svg</file>
         <file>mnemo/CessPool.svg</file>
+        <file>text/reg_1</file>
+        <file>text/reg_2</file>
+        <file>text/reg_3</file>
+        <file>text/reg_4</file>
+        <file>text/reg_5</file>
+        <file>text/reg_6</file>
+        <file>text/reg_7</file>
+        <file>text/reg_8</file>
+        <file>text/reg_9</file>
+        <file>text/reg_10</file>
+        <file>text/reg_11</file>
+        <file>text/reg_12</file>
+        <file>text/reg_13</file>
+        <file>text/reg_14</file>
+        <file>text/reg_15</file>
+        <file>text/reg_16</file>
+        <file>text/reg_17</file>
+        <file>text/reg_18</file>
+        <file>text/reg_19</file>
+        <file>text/reg_20</file>
+        <file>text/bleding</file>
     </qresource>
 </RCC>
