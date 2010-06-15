@@ -448,7 +448,7 @@ V_26_min	919	Integer	300	0	V_26
 V_26_max	920	Integer	300	0	V_26
 V_32_min	921	Integer	300	0	V_32
 V_32_max	922	Integer	300	0	V_32
-X_zd_17	923	Real	300	0	-
+X_zd_17	923	Real	300	0	0 100
 Ton_X_17	925	Timer	300	0	-
 Toff_X_17	927	Timer	300	0	-
 V_26_tz	929	Timer	300	0	-
