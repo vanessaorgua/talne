@@ -398,66 +398,66 @@ K1_06	865	Real	300	0	-
 K1_09	867	Real	300	0	-
 K1_18	869	Real	300	0	-
 K1_19	871	Real	300	0	-
-Rej_03	872	Bool	300	1	-	Розрахунковий режим
-Rej_04	873	Bool	300	1	-	Розрахунковий режим
-Rej_06	874	Bool	300	1	-	Розрахунковий режим
-Rej_09	875	Bool	300	1	-	Розрахунковий режим
-Rej_18	876	Bool	300	1	-	Розрахунковий режим
-Rej_19	877	Bool	300	1	-	Розрахунковий режим
-en_p_01	878	Bool	300	0	-	Розрахунковий режим
-en_p_02	879	Bool	300	0	-	a
-en_p_03	880	Bool	300	0	-	b
-en_p_04	881	Bool	300	0	-	c
-en_p_05	882	Bool	300	0	-	d
-en_p_06	883	Bool	300	0	-	e
-en_p_07	884	Bool	300	0	-	f
-en_p_08	885	Bool	300	0	-
-kr_p_01	886	Integer	300	0	-
-kr_p_02	887	Integer	300	0	-
-kr_p_03	888	Integer	300	0	-
-kr_p_04	889	Integer	300	0	-
-kr_p_05	890	Integer	300	0	-
-kr_p_06	891	Integer	300	0	-
-kr_p_07	892	Integer	300	0	-
-kr_p_08	893	Integer	300	0	-
-Tp_zd_01	894	Integer	300	0	-
-Tp_zd_02	895	Integer	300	0	-
-Tp_zd_03	896	Integer	300	0	-
-Tp_zd_04	897	Integer	300	0	-
-Tp_zd_05	898	Integer	300	0	-
-Tp_zd_06	899	Integer	300	0	-
-Tp_zd_07	900	Integer	300	0	-
-Tp_zd_08	901	Integer	300	0	-
-Tm_zd_01	902	Integer	300	0	-
-Tm_zd_02	903	Integer	300	0	-
-Tm_zd_03	904	Integer	300	0	-
-Tm_zd_04	905	Integer	300	0	-
-Tm_zd_05	906	Integer	300	0	-
-Tm_zd_06	907	Integer	300	0	-
-Tm_zd_07	908	Integer	300	0	-
-Tm_zd_08	909	Integer	300	0	-
-yy_s	910	Integer	300	0	-
-Mon_s	911	Integer	300	0	-
-dd_s	912	Integer	300	0	-
-hh_s	913	Integer	300	0	-
-mm_s	914	Integer	300	0	-
-ss_s	915	Integer	300	0	-
-time_set	916	Bool	300	0	-
-Run	917	Bool	300	0	-
-Save	918	Bool	300	0	-
-X_zd_17	919	Real	300	0	-
-Ton_X_17	921	Timer	300	0	-
-Toff_X_17	923	Timer	300	0	-
-V_21_min	925	Integer	300	0	V_21
-V_21_max	926	Integer	300	0	V_21
-V_25_min	927	Integer	300	0	V_21
-V_25_max	928	Integer	300	0	V_25
-V_26_min	929	Integer	300	0	V_26
-V_26_max	930	Integer	300	0	V_26
-V_32_min	931	Integer	300	0	V_32
-V_32_max	932	Integer	300	0	V_32
-V_26_tz	933	Timer	300	0	-
-Am_Q_09	935	Bool	300	0	-
-Am_Q_10	936	Bool	300	0	-
-Am_M_14	937	Bool	300	0	-
-Am_M_17	938	Bool	300	0	-
+Rej_03	873	Bool	300	1	-	Розрахунковий режим
+Rej_04	874	Bool	300	1	-	Розрахунковий режим
+Rej_06	875	Bool	300	1	-	Розрахунковий режим
+Rej_09	876	Bool	300	1	-	Розрахунковий режим
+Rej_18	877	Bool	300	1	-	Розрахунковий режим
+Rej_19	878	Bool	300	1	-	Розрахунковий режим
+en_p_01	879	Bool	300	0	-	Розрахунковий режим
+en_p_02	880	Bool	300	0	-	a
+en_p_03	881	Bool	300	0	-	b
+en_p_04	882	Bool	300	0	-	c
+en_p_05	883	Bool	300	0	-	d
+en_p_06	884	Bool	300	0	-	e
+en_p_07	885	Bool	300	0	-	f
+en_p_08	886	Bool	300	0	-
+Am_Q_09	887	Bool	300	0	-
+Am_Q_10	888	Bool	300	0	-
+Am_M_14	889	Bool	300	0	-
+Am_M_17	890	Bool	300	0	-
+kr_p_01	891	Integer	300	0	-
+kr_p_02	892	Integer	300	0	-
+kr_p_03	893	Integer	300	0	-
+kr_p_04	894	Integer	300	0	-
+kr_p_05	895	Integer	300	0	-
+kr_p_06	896	Integer	300	0	-
+kr_p_07	897	Integer	300	0	-
+kr_p_08	898	Integer	300	0	-
+Tp_zd_01	899	Integer	300	0	-
+Tp_zd_02	900	Integer	300	0	-
+Tp_zd_03	901	Integer	300	0	-
+Tp_zd_04	902	Integer	300	0	-
+Tp_zd_05	903	Integer	300	0	-
+Tp_zd_06	904	Integer	300	0	-
+Tp_zd_07	905	Integer	300	0	-
+Tp_zd_08	906	Integer	300	0	-
+Tm_zd_01	907	Integer	300	0	-
+Tm_zd_02	908	Integer	300	0	-
+Tm_zd_03	909	Integer	300	0	-
+Tm_zd_04	910	Integer	300	0	-
+Tm_zd_05	911	Integer	300	0	-
+Tm_zd_06	912	Integer	300	0	-
+Tm_zd_07	913	Integer	300	0	-
+Tm_zd_08	914	Integer	300	0	-
+V_21_min	915	Integer	300	0	V_21
+V_21_max	916	Integer	300	0	V_21
+V_25_min	917	Integer	300	0	V_21
+V_25_max	918	Integer	300	0	V_25
+V_26_min	919	Integer	300	0	V_26
+V_26_max	920	Integer	300	0	V_26
+V_32_min	921	Integer	300	0	V_32
+V_32_max	922	Integer	300	0	V_32
+X_zd_17	923	Real	300	0	-
+Ton_X_17	925	Timer	300	0	-
+Toff_X_17	927	Timer	300	0	-
+V_26_tz	929	Timer	300	0	-
+yy_s	931	Integer	300	0	-
+Mon_s	932	Integer	300	0	-
+dd_s	933	Integer	300	0	-
+hh_s	934	Integer	300	0	-
+mm_s	935	Integer	300	0	-
+ss_s	936	Integer	300	0	-
+time_set	937	Bool	300	0	-
+Run	938	Bool	300	0	-
+Save	939	Bool	300	0	-

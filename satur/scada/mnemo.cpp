@@ -15,6 +15,7 @@
 #include "dlgvbctrl.h"
 #include <QVBoxLayout>
 #include <QPalette>
+#include <QTimer>
 
 Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(src)
 {
@@ -187,7 +188,16 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
                 << m_ui->s_Q_07
                 << m_ui->s_Q_08
                 << m_ui->s_Q_09
-                << m_ui->s_Q_10;
+                << m_ui->s_Q_10
+                << m_ui->s_en_p_01
+                << m_ui->s_en_p_02
+                << m_ui->s_en_p_03
+                << m_ui->s_en_p_04
+                << m_ui->s_en_p_05
+                << m_ui->s_en_p_06
+                << m_ui->s_en_p_07
+                << m_ui->s_en_p_08;
+
 /*
                 << m_ui->s_I_01
                 << m_ui->s_I_02
@@ -237,9 +247,48 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
         trc << t;
     }
 
+    // це сильно константне рішення
+    QStringList stl;
+    // 1 вапно на дефекацію
+    stl << "V_49" << "V_16" << "Spr_06" << "X_06" <<"SP_06";
+    trChTags << stl;
+
+    // 2 відкачка з холодного
+    stl.clear();
+    stl << "V_37" <<	"V_28"<<	"Spr_18" <<	"X_18"	<< "SP_18"<<	"SP2_18";
+    trChTags << stl;
+
+      // 3 повернення соку 1 сатурації
+    stl.clear();
+    stl << "V_46" <<	"V_16" <<	"V_48" <<	"Spr_03" <<	"X_03" <<	"SP_03";
+    trChTags << stl;
+
+    //4 рН першрї сатурації
+    stl.clear();
+    stl << "V_53" <<	"V_37" <<	"X_10" <<	"SP_10";
+    trChTags << stl;
+
+    //5 витрата на деф 2 сат
+    stl.clear();
+    stl << "V_38" <<	"V_27" <<	"Spr_19" <<	"X_19" <<	"SP_19";
+    trChTags << stl;
 
 
+    //6 рН 2 сатурації
+    stl.clear();
+    stl << "V_54" <<	"V_38" <<	"X_11" <<	"SP_11";
+    trChTags << stl;
 
+    //7 витрата суспензії 2 сат
+    stl.clear();
+    stl << "V_48" <<	"X_05"  <<	"SP_05" ;
+    trChTags << stl;
+
+
+    QTimer *t = new QTimer(this);
+    t->setInterval(5000);
+    t->start();
+    connect(t,SIGNAL(timeout()),this,SLOT(updateTrendChart()));
 }
 
 Mnemo::~Mnemo()
@@ -351,6 +400,24 @@ void Mnemo::updateDataScaled() // слот обновляє дані на мне
     }
 
 }
+
+void Mnemo::updateTrendChart() // поновлення графіків
+{
+    QVector<double> v;
+    int i=0;
+    foreach(QStringList str,trChTags)
+    {
+        //qDebug() << str;
+        v.clear();
+        foreach(QString t,str)
+        {
+            v << s[0]->getValueFloat(t);
+        }
+        trc[i++]->addPoint(v);
+
+    }
+}
+
 
 void Mnemo::slotCallReg()
 {

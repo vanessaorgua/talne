@@ -7313,7 +7313,7 @@
        xlink:href="#linearGradient10835"
        id="linearGradient4904"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.04578174,0,0,0.21908713,1058.3958,738.08539)"
+       gradientTransform="matrix(0.04578174,0,0,0.49842322,1058.3958,637.86856)"
        x1="257.42029"
        y1="404.41205"
        x2="322.94861"
@@ -7323,7 +7323,7 @@
        xlink:href="#linearGradient10835"
        id="linearGradient4908"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.04578174,0,0,0.19479438,1058.3919,796.78496)"
+       gradientTransform="matrix(0.04578174,0,0,0.19479438,1058.3919,816.78496)"
        x1="257.42029"
        y1="404.41205"
        x2="322.94861"
@@ -7521,9 +7521,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="16"
-     inkscape:cx="59.452314"
-     inkscape:cy="497.5758"
+     inkscape:zoom="2"
+     inkscape:cx="1163.4393"
+     inkscape:cy="185.36597"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -12932,14 +12932,14 @@
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
-       x="-990.53381"
+       x="-970.53381"
        y="1167.929"
        id="text10483"
        transform="matrix(0,-1,1,0,0,0)"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan10485"
-         x="-990.53381"
+         x="-970.53381"
          y="1167.929">Продувка c</tspan></text>
     <text
        transform="matrix(0,-1,1,0,0,0)"
@@ -13811,14 +13811,14 @@
          d="m 907.02014,883.37581 7.9106,0 -0.7868,10e-4 52.93511,-17.42741 -112.53711,0 52.4782,17.42603 z" />
     </g>
     <rect
-       y="866.67096"
+       y="886.67096"
        x="1070.1771"
        height="17.782368"
        width="3"
        id="rect4826"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient4908);fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
     <path
-       transform="matrix(0.17555941,0,0,0.20271854,1059.0029,825.65319)"
+       transform="matrix(0.17555941,0,0,0.20271854,1059.0029,845.65319)"
        d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
        inkscape:randomized="0"
        inkscape:rounded="0"
@@ -13837,7 +13837,7 @@
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient4904);fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
        id="rect4830"
        width="3"
-       height="20"
+       height="45.5"
        x="1070.1809"
        y="816.68683" />
     <rect

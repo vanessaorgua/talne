@@ -29,6 +29,7 @@ public:
 public slots:
     void updateDataRaw(); // слот обновляє дані на мнемосхемі
     void updateDataScaled(); // слот обновляє дані на мнемосхемі
+    void updateTrendChart(); // поновлення графіків
     void slotCallReg();
     void slotCallPumpCtrl();
     void slotCallQ09();
@@ -48,7 +49,7 @@ private:
 
     QVector<TrendChart*> trc;
     QVector<QPushButton*> s_cI;
-
+    QVector<QStringList> trChTags;
 };
 
 #endif

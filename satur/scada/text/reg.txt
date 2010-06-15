@@ -14,7 +14,8 @@ V_06				X_13	SP_13			Am_13			Kp_13	Ti_13	Td_13	Xmin_13	Xmax_13						13. Темп
 V_08				X_14	SP_14			Am_14			Kp_14	Ti_14	Td_14	Xmin_14	Xmax_14						14. Температура соку 1-ї сат.
 V_10				X_15	SP_15			Am_15			Kp_15	Ti_15	Td_15	Xmin_15	Xmax_15						15. Температура соку 2-ї сат.
 V_49				X_16	SP_16			Am_16			Kp_16	Ti_16	Td_16	Xmin_16	Xmax_16						16. Витрата в.м. В ПДБМ
-V_37	V_28		Spr_18	X_18	SP_18	SP2_18		Am_18	Rej_18		Kp_18	Ti_18	Td_18	Xmin_18	Xmax_18	K1_18				Kkor_18	17. Витрата деф. Соку
-V_38	V_27		Spr_19	X_19	SP_19	SP2_19		Am_19	Rej_19		Kp_19	Ti_19	Td_19	Xmin_19	Xmax_19	K1_19				Kkor_19	18. Витрата деф. Соку  2-ї сат.
-V_41				X_20	SP_20			Am_20			Kp_20	Ti_20	Td_20	Xmin_20	Xmax_20						19. Рівень н. Соку 1 сат
-V_42				X_21	SP_21			Am_21			Kp_21	Ti_21	Td_21	Xmin_21	Xmax_21						20. Рівень н. Соку 2 сат
+V_47				X_17	SP_17			Am_17			Kp_17	Ti_17	Td_17	Xmin_17	Xmax_17						17. Це не регулятор, але дірки бути не може
+V_37	V_28		Spr_18	X_18	SP_18	SP2_18		Am_18	Rej_18		Kp_18	Ti_18	Td_18	Xmin_18	Xmax_18	K1_18				Kkor_18	18. Витрата деф. Соку
+V_38	V_27		Spr_19	X_19	SP_19	SP2_19		Am_19	Rej_19		Kp_19	Ti_19	Td_19	Xmin_19	Xmax_19	K1_19				Kkor_19	19. Витрата деф. Соку  2-ї сат.
+V_41				X_20	SP_20			Am_20			Kp_20	Ti_20	Td_20	Xmin_20	Xmax_20						20. Рівень н. Соку 1 сат
+V_42				X_21	SP_21			Am_21			Kp_21	Ti_21	Td_21	Xmin_21	Xmax_21						21. Рівень н. Соку 2 сат
