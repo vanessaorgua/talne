@@ -7521,9 +7521,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="1163.4393"
-     inkscape:cy="185.36597"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="2420.0494"
+     inkscape:cy="129.1952"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -11549,37 +11549,6 @@
        width="3"
        id="rect17336"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient17338);fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
-    <rect
-       y="868.59979"
-       x="2413.3125"
-       height="46.311821"
-       width="3"
-       id="rect17340"
-       style="fill:url(#linearGradient17344);fill-opacity:1;fill-rule:evenodd;stroke:none;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:14px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%" />
-    <path
-       transform="matrix(0.17555941,0,0,0.20271854,2402.2349,856.07592)"
-       d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
-       inkscape:randomized="0"
-       inkscape:rounded="0"
-       inkscape:flatsided="true"
-       sodipodi:arg2="2.6179939"
-       sodipodi:arg1="1.5707963"
-       sodipodi:r2="17.977293"
-       sodipodi:r1="32.886318"
-       sodipodi:cy="305.46957"
-       sodipodi:cx="72.009697"
-       sodipodi:sides="3"
-       id="path17342"
-       style="fill:url(#linearGradient17346);fill-opacity:1;fill-rule:evenodd;stroke:none;-inkscape-font-specification:Liberation Sans;font-family:Liberation Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:74.21116416px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
-       sodipodi:type="star" />
-    <rect
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient17350);fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
-       id="rect17348"
-       width="3"
-       height="66.836075"
-       x="-871.23102"
-       y="2413.6812"
-       transform="matrix(0,-1,1,0,0,0)" />
     <rect
        transform="matrix(0,-1,1,0,0,0)"
        y="2427.0225"

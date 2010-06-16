@@ -250,38 +250,38 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
     // це сильно константне рішення
     QStringList stl;
     // 1 вапно на дефекацію
-    stl << "V_49" << "V_16" << "Spr_06" << "X_06" <<"SP_06";
+    stl << "V_49" <<  "X_06" <<"SP_06" <<  "V_16" << "Spr_06" ;
     trChTags << stl;
 
     // 2 відкачка з холодного
     stl.clear();
-    stl << "V_37" <<	"V_28"<<	"Spr_18" <<	"X_18"	<< "SP_18"<<	"SP2_18";
+    stl << "V_37" <<	"X_18"	<< "SP_18"<< 	"Spr_18" <<	 "V_28"<<	"SP2_18";
     trChTags << stl;
 
       // 3 повернення соку 1 сатурації
     stl.clear();
-    stl << "V_46" <<	"V_16" <<	"V_48" <<	"Spr_03" <<	"X_03" <<	"SP_03";
+    stl << "V_46" <<	"X_03" << "SP_03" <<	"Spr_03" <<"V_16" <<	"V_48"  ;
     trChTags << stl;
 
     //4 рН першрї сатурації
     stl.clear();
-    stl << "V_53" <<	"V_37" <<	"X_10" <<	"SP_10";
+    stl << "V_53" <<	"X_10"  <<"SP_10"<< "V_37";
     trChTags << stl;
 
     //5 витрата на деф 2 сат
     stl.clear();
-    stl << "V_38" <<	"V_27" <<	"Spr_19" <<	"X_19" <<	"SP_19";
+    stl << "V_38" <<	"X_19" << "SP_19" <<  "V_27" <<	"Spr_19" ;
     trChTags << stl;
 
 
     //6 рН 2 сатурації
     stl.clear();
-    stl << "V_54" <<	"V_38" <<	"X_11" <<	"SP_11";
+    stl << "V_54" <<	"X_11" <<"SP_11"<< "V_38" ;
     trChTags << stl;
 
     //7 витрата суспензії 2 сат
     stl.clear();
-    stl << "V_48" <<	"X_05"  <<	"SP_05" ;
+    stl << "V_48" <<	"X_05"  <<"SP_05" ;
     trChTags << stl;
 
 

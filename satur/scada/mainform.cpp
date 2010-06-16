@@ -36,6 +36,10 @@ mMainForm::mMainForm(IoNetClient &source,QWidget *p): QWidget(p)
 
     connect(m_ui->bnBleding,SIGNAL(clicked()),this,SLOT(showBleding()));
 
+    connect(m_ui->bnMdef,SIGNAL(clicked()),this,SLOT(slotSetPos()));
+    connect(m_ui->bn1sat,SIGNAL(clicked()),this,SLOT(slotSetPos()));
+    connect(m_ui->bn2sat,SIGNAL(clicked()),this,SLOT(slotSetPos()));
+
 
     // відобразити мнемосхему
     m_ui->scrollArea->setWidget(new Mnemo(src,this));
@@ -145,3 +149,15 @@ void mMainForm::showBleding()
     p.exec();
 }
 
+void mMainForm::slotSetPos()
+{
+    int xp=-m_ui->scrollArea->widget()->pos().x();
+    qDebug() << xp;
+
+    if(sender()->objectName()=="bn1sat")
+        xp-=1100;
+    else if(sender()->objectName()=="bn2sat")
+        xp-=2350;
+
+    m_ui->scrollArea->viewport()->scroll(xp,0);
+}
