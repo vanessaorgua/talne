@@ -11,7 +11,7 @@ dlgVbCtrl::dlgVbCtrl(IoDev &source , int nValve , QWidget *parent) :
     nI(nValve)
 {
     ui->setupUi(this);
-    ui->en_p->setCurrentIndex(src.getValue16(QString("en_p_%1").arg(nI,2,10,QChar('0'))));
+    ui->en_p->setCurrentIndex(src.getValue16(QString("en_p_%1").arg(nI,2,10,QChar('0')))?1:0);
 
     QTimer *tmr=new QTimer(this);
     tmr->setInterval(1000);
@@ -59,6 +59,7 @@ void dlgVbCtrl::slotSet(int v)
 void dlgVbCtrl::slotSet()
 {
     qint16 v = src.getValue16(QString("Q_%1").arg(nI,2,10,QChar('0')))?0:-1;
+    qDebug() << v;
     src.sendValue(QString("Q_%1").arg(nI,2,10,QChar('0')),v);
 }
 

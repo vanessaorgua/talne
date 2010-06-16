@@ -152,7 +152,7 @@ void mMainForm::showBleding()
 void mMainForm::slotSetPos()
 {
     int xp=-m_ui->scrollArea->widget()->pos().x();
-    qDebug() << xp;
+    //qDebug() << xp;
 
     if(sender()->objectName()=="bn1sat")
         xp-=1100;
