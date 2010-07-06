@@ -83,6 +83,9 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Температура у преддефекаторі</string>
+   </property>
    <property name="text">
     <string>12.3</string>
    </property>
@@ -101,6 +104,10 @@
      <width>51</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Температура 
+дефекованого соку</string>
    </property>
    <property name="text">
     <string>12.3</string>
@@ -121,6 +128,11 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Температура 
+дефекованого соку 
+після підігрівача №2</string>
+   </property>
    <property name="text">
     <string>12.3</string>
    </property>
@@ -139,6 +151,11 @@
      <width>51</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Температура 
+дефекованого соку 
+після підігрівача №3</string>
    </property>
    <property name="text">
     <string>12.3</string>
@@ -159,6 +176,11 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Температура 
+дефекованого соку 
+після підігрівача №4</string>
+   </property>
    <property name="text">
     <string>12.3</string>
    </property>
@@ -177,6 +199,11 @@
      <width>51</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Температура 
+соку 1 сат. 
+до підігрівача</string>
    </property>
    <property name="text">
     <string>12.3</string>
@@ -197,6 +224,11 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Температура 
+соку 1 сат. 
+після  підігрівача</string>
+   </property>
    <property name="text">
     <string>12.3</string>
    </property>
@@ -215,6 +247,10 @@
      <width>51</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Температура соку 2 сат 
+перед підігрівачем</string>
    </property>
    <property name="text">
     <string>12.3</string>
@@ -235,6 +271,10 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Температура соку 2 сат 
+після  підігрівача</string>
+   </property>
    <property name="text">
     <string>12.3</string>
    </property>
@@ -254,6 +294,10 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Температура продувки
+ гар. дефекатора </string>
+   </property>
    <property name="text">
     <string>12.3</string>
    </property>
@@ -267,11 +311,15 @@
   <widget class="QLineEdit" name="s_V_12">
    <property name="geometry">
     <rect>
-     <x>1330</x>
+     <x>1315</x>
      <y>480</y>
      <width>51</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Температура продувки
+ 1 сатуратора</string>
    </property>
    <property name="text">
     <string>12.3</string>
@@ -292,6 +340,10 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Температура продувки
+дефекатора 2 сатурації</string>
+   </property>
    <property name="text">
     <string>12.3</string>
    </property>
@@ -310,6 +362,10 @@
      <width>51</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Температура продувки
+ 2 сатуратора</string>
    </property>
    <property name="text">
     <string>12.3</string>
@@ -330,6 +386,10 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Температура продувки 
+відстійника 2 сатураціїї</string>
+   </property>
    <property name="text">
     <string>100</string>
    </property>
@@ -348,6 +408,9 @@
      <width>51</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Витрата диф. соку</string>
    </property>
    <property name="text">
     <string>12.3</string>
@@ -368,6 +431,9 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Витрата фільтрованого соку</string>
+   </property>
    <property name="text">
     <string>12.3</string>
    </property>
@@ -386,6 +452,10 @@
      <width>51</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Витрата фільтрованого соку 
+контр. фільтрації</string>
    </property>
    <property name="text">
     <string>12.3</string>
@@ -406,6 +476,10 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Рівень у збірнику соку
+перед випарною станцією</string>
+   </property>
    <property name="text">
     <string>100</string>
    </property>
@@ -424,6 +498,11 @@
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Рівень у збірнику
+нефільтр. соку 
+контр. фільтрації</string>
    </property>
    <property name="text">
     <string>100</string>
@@ -444,6 +523,10 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Рівень у збірнику суспензіїї
+контрольної фільтрації </string>
+   </property>
    <property name="text">
     <string>100</string>
    </property>
@@ -462,6 +545,11 @@
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Рівень у збірнику
+фільтрованого соку
+після вакуум-фільтрів</string>
    </property>
    <property name="text">
     <string>100</string>
@@ -482,6 +570,9 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Розрідження на вакуум-фільтрах</string>
+   </property>
    <property name="text">
     <string>12.3</string>
    </property>
@@ -500,6 +591,9 @@
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Рівень в 2 сатураторі</string>
    </property>
    <property name="text">
     <string>100</string>
@@ -520,6 +614,9 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Рівень у збірнику продувок</string>
+   </property>
    <property name="text">
     <string>100</string>
    </property>
@@ -538,6 +635,9 @@
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Рівень у мішалці відвед. піску</string>
    </property>
    <property name="text">
     <string>100</string>
@@ -558,6 +658,9 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Рівень у збірнику соку 1 сат.</string>
+   </property>
    <property name="text">
     <string>100</string>
    </property>
@@ -576,6 +679,9 @@
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Рівень в теплому дефекаторі</string>
    </property>
    <property name="text">
     <string>100</string>
@@ -596,6 +702,9 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Рівень у 1 сатураторі</string>
+   </property>
    <property name="text">
     <string>100</string>
    </property>
@@ -614,6 +723,14 @@
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Рівень у збірнику &lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;часткового опорожнення&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
    <property name="text">
     <string>100</string>
@@ -634,6 +751,15 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Рівень у напірному&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;збірнику &lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;часткового опорожнення&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
    <property name="text">
     <string>100</string>
    </property>
@@ -652,6 +778,9 @@
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Тиск на камерні фільтри</string>
    </property>
    <property name="text">
     <string>100</string>
@@ -672,6 +801,15 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Рівень у&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;напірному збірнику&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;суспензії 1 сат.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
    <property name="text">
     <string>100</string>
    </property>
@@ -690,6 +828,10 @@
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Рівень у мішалці 
+суспензії 1 сатурації</string>
    </property>
    <property name="text">
     <string>100</string>
@@ -729,6 +871,9 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Рівень у &quot;трубі&quot;</string>
+   </property>
    <property name="text">
     <string>100</string>
    </property>
@@ -747,6 +892,9 @@
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Витрата дефекованого соку</string>
    </property>
    <property name="text">
     <string>100</string>
@@ -767,6 +915,9 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Витрата соку на 2 сатурацію</string>
+   </property>
    <property name="text">
     <string>100</string>
    </property>
@@ -785,6 +936,9 @@
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Зворотній  зв'язок ЧП</string>
    </property>
    <property name="text">
     <string>100</string>
@@ -805,6 +959,9 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Зворотній  зв'язок ЧП</string>
+   </property>
    <property name="text">
     <string>100</string>
    </property>
@@ -823,6 +980,10 @@
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Рівень у збірнику 
+неф. соку 1 сатурації</string>
    </property>
    <property name="text">
     <string>100</string>
@@ -843,6 +1004,10 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Рівень у збірнику 
+нефільтр. соку 2 сатурації</string>
+   </property>
    <property name="text">
     <string>100</string>
    </property>
@@ -861,6 +1026,9 @@
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Зворотній  зв'язок ЧП</string>
    </property>
    <property name="text">
     <string>100</string>
@@ -881,6 +1049,9 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Зворотній  зв'язок ЧП</string>
+   </property>
    <property name="text">
     <string>100</string>
    </property>
@@ -899,6 +1070,10 @@
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Рівень у 
+гарячому дефекаторі</string>
    </property>
    <property name="text">
     <string>100</string>
@@ -919,6 +1094,10 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Витрата соку 
+повернення 1 сат.</string>
+   </property>
    <property name="text">
     <string>100</string>
    </property>
@@ -937,6 +1116,9 @@
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Витрата суспензії 1 сат. </string>
    </property>
    <property name="text">
     <string>100</string>
@@ -957,6 +1139,10 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Витрата суспензії 
+2 сатурації</string>
+   </property>
    <property name="text">
     <string>12.3</string>
    </property>
@@ -975,6 +1161,10 @@
      <width>51</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Витрата молока на
+основну дефекацію</string>
    </property>
    <property name="text">
     <string>12.3</string>
@@ -1014,6 +1204,9 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>Рівень в мішалці вап. молока</string>
+   </property>
    <property name="text">
     <string>100</string>
    </property>
@@ -1032,6 +1225,10 @@
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>Витрата молока на
+ дефекатор 2 сат.</string>
    </property>
    <property name="text">
     <string>100</string>
@@ -1052,6 +1249,9 @@
      <height>24</height>
     </rect>
    </property>
+   <property name="toolTip">
+    <string>рН 1 сатурації</string>
+   </property>
    <property name="text">
     <string>12.5</string>
    </property>
@@ -1070,6 +1270,9 @@
      <width>51</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>рН 2 сатурації</string>
    </property>
    <property name="text">
     <string>12.5</string>
@@ -1180,6 +1383,10 @@
       </colorrole>
      </disabled>
     </palette>
+   </property>
+   <property name="toolTip">
+    <string>Рівень у збірнику соку
+перед випарною станцією</string>
    </property>
    <property name="maximum">
     <number>4000</number>
@@ -1297,6 +1504,11 @@
      </disabled>
     </palette>
    </property>
+   <property name="toolTip">
+    <string>Рівень у збірнику
+нефільтр. соку 
+контр. фільтрації</string>
+   </property>
    <property name="maximum">
     <number>4000</number>
    </property>
@@ -1412,6 +1624,10 @@
       </colorrole>
      </disabled>
     </palette>
+   </property>
+   <property name="toolTip">
+    <string>Рівень у збірнику суспензіїї
+контрольної фільтрації </string>
    </property>
    <property name="maximum">
     <number>4000</number>
@@ -1529,6 +1745,11 @@
      </disabled>
     </palette>
    </property>
+   <property name="toolTip">
+    <string>Рівень у збірнику
+фільтрованого соку
+після вакуум-фільтрів</string>
+   </property>
    <property name="maximum">
     <number>4000</number>
    </property>
@@ -1644,6 +1865,9 @@
       </colorrole>
      </disabled>
     </palette>
+   </property>
+   <property name="toolTip">
+    <string>Рівень в 2 сатураторі</string>
    </property>
    <property name="maximum">
     <number>4000</number>
@@ -1761,6 +1985,9 @@
      </disabled>
     </palette>
    </property>
+   <property name="toolTip">
+    <string>Рівень у збірнику продувок</string>
+   </property>
    <property name="maximum">
     <number>4000</number>
    </property>
@@ -1876,6 +2103,9 @@
       </colorrole>
      </disabled>
     </palette>
+   </property>
+   <property name="toolTip">
+    <string>Рівень у мішалці відвед. піску</string>
    </property>
    <property name="maximum">
     <number>4000</number>
@@ -1993,6 +2223,9 @@
      </disabled>
     </palette>
    </property>
+   <property name="toolTip">
+    <string>Рівень у збірнику соку 1 сат.</string>
+   </property>
    <property name="maximum">
     <number>4000</number>
    </property>
@@ -2108,6 +2341,9 @@
       </colorrole>
      </disabled>
     </palette>
+   </property>
+   <property name="toolTip">
+    <string>Рівень в теплому дефекаторі</string>
    </property>
    <property name="maximum">
     <number>4000</number>
@@ -2225,6 +2461,9 @@
      </disabled>
     </palette>
    </property>
+   <property name="toolTip">
+    <string>Рівень у 1 сатураторі</string>
+   </property>
    <property name="maximum">
     <number>4000</number>
    </property>
@@ -2340,6 +2579,14 @@
       </colorrole>
      </disabled>
     </palette>
+   </property>
+   <property name="toolTip">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Рівень у збірнику &lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;часткового опорожнення&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
    <property name="maximum">
     <number>4000</number>
@@ -2457,6 +2704,15 @@
      </disabled>
     </palette>
    </property>
+   <property name="toolTip">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Рівень у напірному&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;збірнику &lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;часткового опорожнення&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
    <property name="maximum">
     <number>4000</number>
    </property>
@@ -2572,6 +2828,10 @@
       </colorrole>
      </disabled>
     </palette>
+   </property>
+   <property name="toolTip">
+    <string>Рівень у збірнику 
+неф. соку 1 сатурації</string>
    </property>
    <property name="maximum">
     <number>4000</number>
@@ -2689,6 +2949,10 @@
      </disabled>
     </palette>
    </property>
+   <property name="toolTip">
+    <string>Рівень у збірнику 
+нефільтр. соку 2 сатурації</string>
+   </property>
    <property name="maximum">
     <number>4000</number>
    </property>
@@ -2804,6 +3068,10 @@
       </colorrole>
      </disabled>
     </palette>
+   </property>
+   <property name="toolTip">
+    <string>Рівень у 
+гарячому дефекаторі</string>
    </property>
    <property name="maximum">
     <number>4000</number>
@@ -2921,6 +3189,9 @@
      </disabled>
     </palette>
    </property>
+   <property name="toolTip">
+    <string>Рівень в мішалці вап. молока</string>
+   </property>
    <property name="maximum">
     <number>4000</number>
    </property>
@@ -3037,6 +3308,10 @@
      </disabled>
     </palette>
    </property>
+   <property name="toolTip">
+    <string>Рівень у мішалці 
+суспензії 1 сатурації</string>
+   </property>
    <property name="maximum">
     <number>4000</number>
    </property>
@@ -3152,6 +3427,9 @@
       </colorrole>
      </disabled>
     </palette>
+   </property>
+   <property name="toolTip">
+    <string>Рівень у &quot;трубі&quot;</string>
    </property>
    <property name="maximum">
     <number>4000</number>
@@ -3832,6 +4110,9 @@
      <width>41</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="toolTip">
+    <string>дільник у 6 зону</string>
    </property>
    <property name="text">
     <string>100</string>
@@ -6187,6 +6468,15 @@ QCheckBox:indicator
      </disabled>
     </palette>
    </property>
+   <property name="toolTip">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Рівень у&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;напірному збірнику&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;суспензії 1 сат.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
    <property name="maximum">
     <number>4000</number>
    </property>
@@ -6774,20 +7064,20 @@ QCheckBox:indicator
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>100</x>
      <y>630</y>
      <width>251</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>Витрата в.м. на осн. дефекацію</string>
+    <string>Витрата вап.мол. на осн. дефекацію</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>490</x>
+     <x>590</x>
      <y>630</y>
      <width>251</width>
      <height>16</height>
@@ -6800,7 +7090,7 @@ QCheckBox:indicator
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>950</x>
+     <x>1060</x>
      <y>630</y>
      <width>251</width>
      <height>16</height>
@@ -6813,7 +7103,7 @@ QCheckBox:indicator
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>1410</x>
+     <x>1530</x>
      <y>630</y>
      <width>251</width>
      <height>16</height>
@@ -6826,8 +7116,8 @@ QCheckBox:indicator
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>1870</x>
-     <y>630</y>
+     <x>1970</x>
+     <y>635</y>
      <width>251</width>
      <height>16</height>
     </rect>
@@ -6839,8 +7129,8 @@ QCheckBox:indicator
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>2330</x>
-     <y>630</y>
+     <x>2530</x>
+     <y>631</y>
      <width>251</width>
      <height>16</height>
     </rect>
@@ -6852,8 +7142,8 @@ QCheckBox:indicator
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>2790</x>
-     <y>630</y>
+     <x>2880</x>
+     <y>634</y>
      <width>251</width>
      <height>16</height>
     </rect>
@@ -7216,8 +7506,8 @@ QCheckBox:indicator
   <widget class="QLabel" name="label_35">
    <property name="geometry">
     <rect>
-     <x>1360</x>
-     <y>500</y>
+     <x>1362</x>
+     <y>484</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -7229,8 +7519,8 @@ QCheckBox:indicator
   <widget class="QLabel" name="label_36">
    <property name="geometry">
     <rect>
-     <x>1200</x>
-     <y>490</y>
+     <x>1218</x>
+     <y>475</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -7446,6 +7736,32 @@ p, li { white-space: pre-wrap; }
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;м&lt;span style=&quot; vertical-align:super;&quot;&gt;3&lt;/span&gt;/ч&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_50">
+   <property name="geometry">
+    <rect>
+     <x>2211</x>
+     <y>374</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>кПа</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_51">
+   <property name="geometry">
+    <rect>
+     <x>1874</x>
+     <y>204</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>кПа</string>
    </property>
   </widget>
  </widget>
