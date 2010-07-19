@@ -396,7 +396,7 @@ void Mnemo::updateDataScaled() // слот обновляє дані на мне
 
     foreach(QLineEdit *p,le_X)
     {
-        p->setText(QString("%1").arg(s[0]->getValueScaled(p->objectName().right(p->objectName().size()-2)),l,'f',f));
+        p->setText(QString("%1").arg(s[0]->getValueScaled(p->objectName().right(p->objectName().size()-2)),3,'f',0));
     }
 
 }
