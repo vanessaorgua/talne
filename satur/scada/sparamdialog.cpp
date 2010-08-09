@@ -33,7 +33,8 @@ SParamDialog::SParamDialog(IoDev &src,QWidget *parent) :
     //connect(m_ui->sb_m,SIGNAL(valueChanged(QString)),this,SLOT(slotSet(QString)));
 
     m_ui->bx_Teg->setCurrentIndex(0);
-    selectTeg(0);
+    if(tag_name.size())
+        selectTeg(0);
 
     QSettings set;
     m_ui->le_ioserv->setText(set.value("/ioserv/hostname","localhost").toString());
