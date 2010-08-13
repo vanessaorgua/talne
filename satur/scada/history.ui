@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>750</width>
-    <height>599</height>
+    <height>620</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -197,6 +197,111 @@
          <enum>QFrame::Sunken</enum>
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QPushButton" name="term1">
+           <property name="text">
+            <string>Температури дефекації</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="term2">
+           <property name="text">
+            <string>Температури сатурації</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="termpr">
+           <property name="text">
+            <string>Температури прод.</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="flowvm">
+           <property name="text">
+            <string>Витрати вап. мол.</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="flowj">
+           <property name="text">
+            <string>Витрати соків</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="flowr">
+           <property name="text">
+            <string>Витрати повернення</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="levelpr">
+           <property name="text">
+            <string>Рівні продувок</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="leveldef">
+           <property name="text">
+            <string>Рівні дефекації</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="level1sat">
+           <property name="text">
+            <string>Рівні 1 сатурації</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="level2sat">
+           <property name="text">
+            <string>Рівні 2 сатурації</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="phco2">
+           <property name="text">
+            <string>рН &amp; СО2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="drvds">
+           <property name="text">
+            <string>ЧП дефек. соку</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="drv1sat">
+           <property name="text">
+            <string>ЧП н.ф. соку 1 сат.</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="drv1f">
+           <property name="text">
+            <string>ЧП ф. соку 1 сат.</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="drv2sat">
+           <property name="text">
+            <string>ЧП н.ф. соку 2 сат.</string>
+           </property>
+          </widget>
+         </item>
          <item>
           <spacer name="verticalSpacer_2">
            <property name="orientation">

@@ -20,7 +20,7 @@ dlgCessCtrl::dlgCessCtrl(IoDev &source, QWidget *parent) :
 
     ui->s_V_26_tz->setTime(QTime().addSecs((src.getValue32("V_26_tz")/1000)));
 
-    ui->s_Am_Q_09->setCurrentIndex(src.getValue16("Am_Q_09"));
+    ui->s_Am_Q_09->setCurrentIndex(src.getValue16("Am_Q_09")?1:0);
     ui->s_Q_09->setCurrentIndex(src.getValue16("Q_09")?1:0);
     ui->s_Q_09->blockSignals(ui->s_Am_Q_09->currentIndex());
 

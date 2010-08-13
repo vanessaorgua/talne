@@ -28,5 +28,20 @@
         <file>text/reg_19</file>
         <file>text/reg_20</file>
         <file>text/bleding</file>
+        <file>text/term1</file>
+        <file>text/term2</file>
+        <file>text/termpr</file>
+        <file>text/flowvm</file>
+        <file>text/flowj</file>
+        <file>text/flowr</file>
+        <file>text/levelpr</file>
+        <file>text/leveldef</file>
+        <file>text/level1sat</file>
+        <file>text/level2sat</file>
+        <file>text/phco2</file>
+        <file>text/drvds</file>
+        <file>text/drv1f</file>
+        <file>text/drv1sat</file>
+        <file>text/drv2sat</file>
     </qresource>
 </RCC>

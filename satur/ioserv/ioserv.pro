@@ -14,11 +14,10 @@ OBJECTS_DIR = build
 UI_DIR = build
 RCC_DIR = build
 OTHER_FILES += list.txt \
-    ../text/alert.txt
+    ../text/alert.txt \
+    alert.txt
 RESOURCES += test.qrc
 QMAKE_LIBDIR += ../../../lib
 LIBS += -lrcada
-
-INCLUDEPATH +=   ../../../lib/include
-
-PRE_TARGETDEPS +=../../../lib/librcada.a
+INCLUDEPATH += ../../../lib/include
+PRE_TARGETDEPS += ../../../lib/librcada.a
