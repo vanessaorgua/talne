@@ -301,7 +301,10 @@ void Mnemo::updateDataRaw()
 {
     foreach(QProgressBar *p,pb)
     {
-        p->setValue(s[0]->getValueFloat(p->objectName().right(p->objectName().size()-3)));
+        int t = s[0]->getValueFloat(p->objectName().right(p->objectName().size()-3));
+        if(t<0) t=0;
+        if(t>4000) t=4000;
+        p->setValue(t);
     }
 
     foreach(QCheckBox *p,cb)

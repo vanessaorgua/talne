@@ -269,48 +269,6 @@ QCheckBox:indicator
           <bool>true</bool>
          </property>
         </widget>
-        <widget class="QCheckBox" name="s_I_09">
-         <property name="geometry">
-          <rect>
-           <x>283</x>
-           <y>142</y>
-           <width>25</width>
-           <height>46</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">QCheckBox{
-min-width: 25px;
-min-height: 46px;
-max-width: 25px;
-max-height: 46px;
-}
-QCheckBox:checked
-{
-	image: url(:/butons/pict/klapan_diskrette_vert_on_na_25x26.png);
-}
-
-QCheckBox:unchecked
-{
-	image: url(:/butons/pict/klapan_diskrette_vert_off_na_25x46.png);
-}
-
-QCheckBox:indicator
-{
-	background: rgba(0, 0, 0, 0);
-}
-</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-         <property name="checkable">
-          <bool>true</bool>
-         </property>
-         <property name="checked">
-          <bool>false</bool>
-         </property>
-        </widget>
         <widget class="QLineEdit" name="s_V_26_t">
          <property name="geometry">
           <rect>
@@ -325,6 +283,41 @@ QCheckBox:indicator
          </property>
          <property name="readOnly">
           <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="Q_I_09">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>147</y>
+           <width>51</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../../../lib/picture.qrc">
+           <normaloff>:/butons/pict/klapan_diskrette_vert_off_na_25x46.png</normaloff>:/butons/pict/klapan_diskrette_vert_off_na_25x46.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>25</width>
+           <height>46</height>
+          </size>
          </property>
         </widget>
        </widget>
@@ -485,7 +478,10 @@ QCheckBox:indicator
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="text.qrc"/>
+  <include location="../../../lib/picture.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>Close</sender>

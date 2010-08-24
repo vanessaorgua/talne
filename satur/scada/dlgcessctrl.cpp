@@ -33,6 +33,8 @@ dlgCessCtrl::dlgCessCtrl(IoDev &source, QWidget *parent) :
     connect(ui->s_Am_Q_09,SIGNAL(currentIndexChanged(int)),this,SLOT(slotSetBool(int)));
     connect(ui->s_Q_09,SIGNAL(currentIndexChanged(int)),this,SLOT(slotSetBool(int)));
 
+    connect(ui->Q_I_09,SIGNAL(clicked()),this,SLOT(slotSetQ()));
+
     QTimer *tmr = new QTimer(this);
     tmr->setInterval(1000);
     tmr->start();
@@ -60,7 +62,14 @@ void dlgCessCtrl::slotUpdate() // в цьому слоті буде поновл
 {
     ui->s_pV->setValue(src.getValueFloat("V_26"));
     ui->s_lV->setText(QString("%1").arg(src.getValueScaled("V_26"),3,'f',0));
-    ui->s_I_09->setChecked(src.getValue16("I_09"));
+    //ui->s_I_09->setChecked(src.getValue16("I_09"));
+    ui->Q_I_09->setIcon(QIcon(
+            QPixmap(src.getValue16("I_09")
+                                  ?":/butons/pict/klapan_diskrette_vert_on_na_25x26.png"
+                                      :":/butons/pict/klapan_diskrette_vert_off_na_25x46.png")));
+
+
+
     ui->s_I_11->setChecked(src.getValue16("I_11"));
 
     ui->s_V_26_t->setText(QTime(0,0,0,0).addMSecs(src.getValue32("V_26_t")).toString("hh:mm:ss"));
@@ -128,5 +137,14 @@ void dlgCessCtrl::slotSetTime(QTime v)
    qint32 t= QTime(0,0,0,0).msecsTo(v);
 
    src.sendValue("V_26_tz",t);
+}
+
+void dlgCessCtrl::slotSetQ()
+{
+    if(ui->s_Am_Q_09->currentIndex()==0)
+    {
+        ui->s_Q_09->setCurrentIndex(1-ui->s_Q_09->currentIndex());
+    }
+
 }
 

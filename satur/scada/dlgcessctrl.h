@@ -21,7 +21,7 @@ public slots:
     void slotSetDs(double);
     void slotSetBool(int);
     void slotSetTime(QTime);
-
+    void slotSetQ();
 protected:
     void changeEvent(QEvent *e);
 
