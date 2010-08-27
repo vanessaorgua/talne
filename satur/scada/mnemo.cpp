@@ -438,7 +438,8 @@ void Mnemo::slotCallPumpCtrl()
                 << "R_M_14"
                 << "Am_M_14"
                 << "V_21_min"
-                << "V_21_max";
+                << "V_21_max"
+                << "I_15";
     }
     else
     {
@@ -447,8 +448,8 @@ void Mnemo::slotCallPumpCtrl()
                 << "R_M_17"
                 << "Am_M_17"
                 << "V_25_min"
-                << "V_25_max";
-
+                << "V_25_max"
+                << "I_18";
     }
 
     dlgPumpCtrl p(*s[0],v,this);

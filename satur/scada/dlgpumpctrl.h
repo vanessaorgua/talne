@@ -18,7 +18,8 @@ namespace Pc
         Q = 2,
         Am = 3,
         Min = 4,
-        Max = 5
+        Max = 5,
+        MD = 6
     };
 }
 

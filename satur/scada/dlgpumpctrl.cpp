@@ -58,6 +58,8 @@ void dlgPumpCtrl::slotUpdate() // в цьому слоті буде поновл
     ui->s_pV->setValue(src.getValueFloat(t[Pc::V]));
     ui->s_lV->setText(QString("%1").arg(src.getValueScaled(t[Pc::V]),3,'f',0));
     ui->s_I->setChecked(src.getValue16(t[Pc::I]));
+    ui->s_md->setChecked(src.getValue16(t[Pc::MD]));
+
     if(ui->s_AM->currentIndex())
     {
         ui->s_R_M->setCurrentIndex(src.getValue16(t[Pc::Q])?1:0);
