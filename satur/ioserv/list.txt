@@ -461,3 +461,5 @@ ss_s	936	Integer	300	0	-
 time_set	937	Bool	300	0	-
 Run	938	Bool	300	0	-
 Save	939	Bool	300	0	-
+K2_19	940	Real	300	0	-
+K3_19	942	Real	300	0	-

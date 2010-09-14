@@ -75,6 +75,8 @@ dlgBledingSetup::dlgBledingSetup(IoDev &source,QWidget *parent) :
     s[240]=4;
     s[180]=5;
     s[120]=6;
+    s[60]=7;
+    s[30]=8;
 
     foreach(QComboBox *v,cb_k)
     {
@@ -117,7 +119,7 @@ void dlgBledingSetup::slotSet(int v)
     else
     {
         QVector<qint16> vi;
-        vi << 1440 << 720 << 480 << 360 << 240  << 180 << 120;
+        vi << 1440 << 720 << 480 << 360 << 240  << 180 << 120 << 60 << 30;
         src.sendValue(sender()->objectName(),vi[v]);
     }
     src.sendValue("Save",qint16(-1));
@@ -150,7 +152,7 @@ void dlgBledingSetup::updateList()
             << tr("Відстійник 2-сат.");
 
     QVector<qint16> vi;
-    vi << 1440 << 720 << 480 << 360 << 240  << 180 << 120;
+    vi << 1440 << 720 << 480 << 360 << 240  << 180 << 120 << 60 << 30;
 
 
     QVector<int> time;

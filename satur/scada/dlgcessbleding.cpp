@@ -12,16 +12,16 @@ dlgCessBleding::dlgCessBleding(IoDev &source, QWidget *parent) :
 
     ui->Am_17->setCurrentIndex(src.getValue16("Am_17")?1:0);
     ui->X_zd_17->setValue(src.getValueScaled("X_zd_17"));
-    ui->Ton_X_17->setTime(QTime().addSecs(src.getValue32("Ton_X_17")/1000));
-    ui->Toff_X_17->setTime(QTime().addSecs(src.getValue32("Toff_X_17")/1000));
+    ui->Ton_X_17->setValue(src.getValue32("Ton_X_17")/1000);
+    ui->Toff_X_17->setValue(src.getValue32("Toff_X_17")/1000);
 
     ui->sX_17->blockSignals(ui->Am_17->currentIndex());
     ui->dX_17->blockSignals(ui->Am_17->currentIndex());
 
     connect(ui->Am_17,SIGNAL(currentIndexChanged(int)),this,SLOT(slotSet(int)));
     connect(ui->X_zd_17,SIGNAL(valueChanged(double)),this,SLOT(slotSet(double)));
-    connect(ui->Ton_X_17,SIGNAL(timeChanged(QTime)),this,SLOT(slotSet(QTime)));
-    connect(ui->Toff_X_17,SIGNAL(timeChanged(QTime)),this,SLOT(slotSet(QTime)));
+    connect(ui->Ton_X_17,SIGNAL(valueChanged(double)),this,SLOT(slotSet(int)));
+    connect(ui->Toff_X_17,SIGNAL(valueChanged(double)),this,SLOT(slotSet(int)));
 
     connect(ui->sX_17,SIGNAL(valueChanged(int)),this,SLOT(slotSet(int)));
     connect(ui->dX_17,SIGNAL(valueChanged(double)),this,SLOT(slotSet(double)));
@@ -75,6 +75,14 @@ void dlgCessBleding::slotSet(int v)
         ui->sX_17->blockSignals(v);
         ui->dX_17->blockSignals(v);
     }
+    if(sender()->objectName()=="Ton_X_17")
+    {
+        src.sendValue("Ton_X_17",v*1000);
+    }
+    if(sender()->objectName()=="Toff_X_17")
+    {
+        src.sendValue("Toff_X_17",v*1000);
+    }
 }
 
 void dlgCessBleding::slotSet(double v)
@@ -89,11 +97,5 @@ void dlgCessBleding::slotSet(double v)
     }
 }
 
-void dlgCessBleding::slotSet(QTime v)
-{
-    qint32 t= QTime(0,0,0,0).msecsTo(v);
-
-    src.sendValue(sender()->objectName(),t);
-}
 
 

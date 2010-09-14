@@ -164,6 +164,16 @@
           <string>12</string>
          </property>
         </item>
+        <item>
+         <property name="text">
+          <string>24</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>48</string>
+         </property>
+        </item>
        </widget>
       </item>
       <item row="2" column="6">
@@ -364,6 +374,16 @@
           <string>12</string>
          </property>
         </item>
+        <item>
+         <property name="text">
+          <string>24</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>48</string>
+         </property>
+        </item>
        </widget>
       </item>
       <item row="4" column="4">
@@ -401,6 +421,16 @@
         <item>
          <property name="text">
           <string>12</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>24</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>48</string>
          </property>
         </item>
        </widget>
@@ -442,6 +472,16 @@
           <string>12</string>
          </property>
         </item>
+        <item>
+         <property name="text">
+          <string>24</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>48</string>
+         </property>
+        </item>
        </widget>
       </item>
       <item row="6" column="4">
@@ -479,6 +519,16 @@
         <item>
          <property name="text">
           <string>12</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>24</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>48</string>
          </property>
         </item>
        </widget>
@@ -520,6 +570,16 @@
           <string>12</string>
          </property>
         </item>
+        <item>
+         <property name="text">
+          <string>24</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>48</string>
+         </property>
+        </item>
        </widget>
       </item>
       <item row="8" column="4">
@@ -559,6 +619,16 @@
           <string>12</string>
          </property>
         </item>
+        <item>
+         <property name="text">
+          <string>24</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>48</string>
+         </property>
+        </item>
        </widget>
       </item>
       <item row="9" column="4">
@@ -596,6 +666,16 @@
         <item>
          <property name="text">
           <string>12</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>24</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>48</string>
          </property>
         </item>
        </widget>

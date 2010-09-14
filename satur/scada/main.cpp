@@ -39,7 +39,6 @@ int main(int argc,char **argv)
     
     main.addWidget(mainForm);
     main.setCurrentWidget(mainForm);
-
     //QObject::connect(mainForm->Exit,SIGNAL(clicked()),&main,SLOT(close()));
 
     if(QApplication::desktop()->size().width()>1280 && QApplication::desktop()->size().height()> 1024)
