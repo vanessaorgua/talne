@@ -20,8 +20,8 @@ dlgCessBleding::dlgCessBleding(IoDev &source, QWidget *parent) :
 
     connect(ui->Am_17,SIGNAL(currentIndexChanged(int)),this,SLOT(slotSet(int)));
     connect(ui->X_zd_17,SIGNAL(valueChanged(double)),this,SLOT(slotSet(double)));
-    connect(ui->Ton_X_17,SIGNAL(valueChanged(double)),this,SLOT(slotSet(int)));
-    connect(ui->Toff_X_17,SIGNAL(valueChanged(double)),this,SLOT(slotSet(int)));
+    connect(ui->Ton_X_17,SIGNAL(valueChanged(int)),this,SLOT(slotSet(int)));
+    connect(ui->Toff_X_17,SIGNAL(valueChanged(int)),this,SLOT(slotSet(int)));
 
     connect(ui->sX_17,SIGNAL(valueChanged(int)),this,SLOT(slotSet(int)));
     connect(ui->dX_17,SIGNAL(valueChanged(double)),this,SLOT(slotSet(double)));
