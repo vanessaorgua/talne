@@ -35,140 +35,140 @@
          <item>
           <widget class="QPushButton" name="reg_1">
            <property name="text">
-            <string>Регулятор 1</string>
+            <string>Рівень &quot;у трубі&quot;</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="reg_2">
            <property name="text">
-            <string>Регулятор 2</string>
+            <string>Рівень у гар.дефекаторі</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="reg_3">
            <property name="text">
-            <string>Регулятор 3</string>
+            <string>Витрата соку повернення</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="reg_4">
            <property name="text">
-            <string>Регулятор 4</string>
+            <string>Витрата сусп. 1-ї сатурації</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="reg_5">
            <property name="text">
-            <string>Регулятор 5</string>
+            <string>Витрата сусп. 2-ї сатурації</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="reg_6">
            <property name="text">
-            <string>Регулятор 6</string>
+            <string>Витрата в міш. на осн. деф.</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="reg_7">
            <property name="text">
-            <string>Регулятор 7</string>
+            <string>Тиск газу</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="reg_8">
            <property name="text">
-            <string>Регулятор 8</string>
+            <string>Рівень в зб. В/М</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="reg_9">
            <property name="text">
-            <string>Регулятор 9</string>
+            <string>Витрата В/М на деф. 2-ї сат</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="reg_10">
            <property name="text">
-            <string>Регулятор 10</string>
+            <string>рН 1-ї сатурації</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="reg_11">
            <property name="text">
-            <string>Регулятор 11</string>
+            <string>рН 2-ї сатурації</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="reg_17">
            <property name="text">
-            <string>Регулятор 17</string>
+            <string>Витрата сусп. 1-ї сатурації</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="reg_18">
            <property name="text">
-            <string>Регулятор 18</string>
+            <string>Витрата деф.соку</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="reg_15">
            <property name="text">
-            <string>Регулятор 15</string>
+            <string>Темп.соку 2-ї сатурації</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="reg_13">
            <property name="text">
-            <string>Регулятор 13</string>
+            <string>Темп.соку після підігр.4</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="reg_12">
            <property name="text">
-            <string>Регулятор 12</string>
+            <string>Темп.соку після підігр.3</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="reg_19">
            <property name="text">
-            <string>Регулятор 19</string>
+            <string>Витрата деф.соку 2-ї сат.</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="reg_14">
            <property name="text">
-            <string>Регулятор 14</string>
+            <string>Темп.соку 1-ї сатурації</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="reg_16">
            <property name="text">
-            <string>Регулятор 16</string>
+            <string>Витрата на ПДБМ</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QPushButton" name="reg_20">
            <property name="text">
-            <string>Регулятор 20</string>
+            <string>Рівень н/соку 1-ї сатурації</string>
            </property>
           </widget>
          </item>
