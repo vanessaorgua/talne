@@ -57,6 +57,7 @@ RHistorySelect::RHistorySelect(IoDev &src,struct trendinfo *tp,QWidget *p /*=NUL
     connect(m_ui->phco2,SIGNAL(clicked()),this,SLOT(slotAccept()));
 
     connect(m_ui->phana,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->phana2,SIGNAL(clicked()),this,SLOT(slotAccept()));
 
 
 }

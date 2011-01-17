@@ -44,5 +44,6 @@
         <file>text/drv1sat</file>
         <file>text/drv2sat</file>
         <file>text/phana</file>
+        <file>text/phana2</file>
     </qresource>
 </RCC>

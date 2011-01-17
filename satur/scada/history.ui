@@ -322,6 +322,13 @@
            </property>
           </widget>
          </item>
+         <item>
+          <widget class="QPushButton" name="phana2">
+           <property name="text">
+            <string>аналіз 2</string>
+           </property>
+          </widget>
+         </item>
         </layout>
        </widget>
       </item>
