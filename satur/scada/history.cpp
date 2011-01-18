@@ -1,5 +1,6 @@
 #include "history.h"
 #include <iodev.h>
+#include <trendconstruct.h>
 #include "ui_history.h"
 
 #include <QDebug>
@@ -13,6 +14,8 @@ RHistorySelect::RHistorySelect(IoDev &src,struct trendinfo *tp,QWidget *p /*=NUL
         m_ui(new Ui::History)
 {
     m_ui->setupUi(this);
+
+    connect(m_ui->RunConstruct,SIGNAL(clicked()),this,SLOT(slotConstruct()));
 
     connect(m_ui->reg_1,SIGNAL(clicked()),this,SLOT(slotAccept()));
     connect(m_ui->reg_2,SIGNAL(clicked()),this,SLOT(slotAccept()));
@@ -150,4 +153,10 @@ void RHistorySelect::changeEvent(QEvent *e)
     default:
         break;
     }
+}
+
+void RHistorySelect::slotConstruct()
+{
+    TrendConstruct p(s,this);
+    p.exec();
 }
