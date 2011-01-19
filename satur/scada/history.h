@@ -7,6 +7,7 @@
 
 
 class IoDev;
+class IoNetClient;
 
 namespace Ui {
     class History;
@@ -16,7 +17,7 @@ class RHistorySelect: public QDialog
 {
 Q_OBJECT
 public:
-    RHistorySelect(IoDev &src,struct trendinfo *tp,QWidget *p=NULL);
+    RHistorySelect(IoNetClient  &src,struct trendinfo *tp,QWidget *p=NULL);
     ~RHistorySelect() ;
     QString& getNameTrend() {return nameTrend;}
 
@@ -31,7 +32,7 @@ protected:
 private:
     QString nameTrend;
     struct trendinfo *TrendParam;
-    IoDev &s;
+    IoNetClient &s;
 
     Ui::History *m_ui;
 

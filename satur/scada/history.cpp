@@ -2,12 +2,13 @@
 #include <iodev.h>
 #include <trendconstruct.h>
 #include "ui_history.h"
+#include "IoNetClient.h"
 
 #include <QDebug>
 
 
 
-RHistorySelect::RHistorySelect(IoDev &src,struct trendinfo *tp,QWidget *p /*=NULL*/) :
+RHistorySelect::RHistorySelect(IoNetClient &src,struct trendinfo *tp,QWidget *p /*=NULL*/) :
         QDialog(p),
         s(src),
         TrendParam(tp),
@@ -94,15 +95,15 @@ void RHistorySelect::slotAccept()
         for(i=0;!f.atEnd() && i<8;++i) // обмежети зчитування із файла кінцем файла або не більше як 8 рядків
 	{
                 TrendParam->fields[i]=t=QString::fromUtf8(f.readLine()).trimmed(); // прочитати назву поля
-                if(s.getTags().contains(t)) // якщо задане поле знайдено
+                if(s[0]->getTags().contains(t)) // якщо задане поле знайдено
 		{
-                    sl<< /*s.getText()[t].size() > 0 ? */s.getText()[t] /*: t */; // завантажити назву поля, якщо не знайдено - назву тега
+                    sl<< /*s.getText()[t].size() > 0 ? */s[0]->getText()[t] /*: t */; // завантажити назву поля, якщо не знайдено - назву тега
 
 
-                    TrendParam->fScale[i][0]=s.scaleZero(t); // спробувати розпізнати тип поля та/чи значення шкали мінімуму
-                    TrendParam->fScale[i][1]=s.scaleFull(t); // спробувати розпізнати тип поля та/чи значення шкали мінімуму
+                    TrendParam->fScale[i][0]=s[0]->scaleZero(t); // спробувати розпізнати тип поля та/чи значення шкали мінімуму
+                    TrendParam->fScale[i][1]=s[0]->scaleFull(t); // спробувати розпізнати тип поля та/чи значення шкали мінімуму
 
-                     if(s.fieldType(t)==1) // якщо дискретний сигнал
+                     if(s[0]->fieldType(t)==1) // якщо дискретний сигнал
                     {
 			    // змінити тип поля
                             TrendParam->fields[i]=QString("((%1!=0)*454+%2)").arg(t).arg(i*499);

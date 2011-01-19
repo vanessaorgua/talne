@@ -85,7 +85,7 @@ void mMainForm::trRun()
     int nHeight=4000;
 
 //    qDebug() << sender()->objectName();
-    RHistorySelect *trd = new RHistorySelect(*src[0],&tp,this);
+    RHistorySelect *trd = new RHistorySelect(src,&tp,this);
 
     if(trd->exec()==QDialog::Accepted)
     {
