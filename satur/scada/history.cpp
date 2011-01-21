@@ -63,6 +63,13 @@ RHistorySelect::RHistorySelect(IoNetClient &src,struct trendinfo *tp,QWidget *p 
     connect(m_ui->phana,SIGNAL(clicked()),this,SLOT(slotAccept()));
     connect(m_ui->phana2,SIGNAL(clicked()),this,SLOT(slotAccept()));
 
+    QSettings set;
+
+    TrendParam->host=set.value("/db/hostname","localhost").toString();
+    TrendParam->db=set.value("/db/dbname","lynovycya").toString();
+    TrendParam->user=set.value("/db/username","scada").toString();
+    TrendParam->passwd=set.value("/db/passwd","").toString();
+
 
 }
 
@@ -79,12 +86,6 @@ void RHistorySelect::slotAccept()
     QFile f(QString(":/text/%1").arg(nameTrend));
     QString t;
     QStringList sl;
-    QSettings set;
-
-    TrendParam->host=set.value("/db/hostname","localhost").toString();
-    TrendParam->db=set.value("/db/dbname","lynovycya").toString();
-    TrendParam->user=set.value("/db/username","scada").toString();
-    TrendParam->passwd=set.value("/db/passwd","").toString();
     
     
     if(f.open(QIODevice::ReadOnly))
@@ -160,4 +161,52 @@ void RHistorySelect::slotConstruct()
 {
     TrendConstruct p(s,this);
     p.exec();
+    QStringList list=p.tegList();
+
+    if(list.size())
+    {
+        int i=0;
+        QStringList sl;
+
+        foreach(QString t,list)
+        {
+            qDebug() << t;
+                if(s[0]->getTags().contains(t)) // якщо задане поле знайдено
+                {
+                    TrendParam->fields[i]=t;
+                    sl<< /*s.getText()[t].size() > 0 ? */s[0]->getText()[t] /*: t */; // завантажити назву поля, якщо не знайдено - назву тега
+
+                    TrendParam->fScale[i][0]=s[0]->scaleZero(t); // спробувати розпізнати тип поля та/чи значення шкали мінімуму
+                    TrendParam->fScale[i][1]=s[0]->scaleFull(t); // спробувати розпізнати тип поля та/чи значення шкали мінімуму
+
+                     if(s[0]->fieldType(t)==1) // якщо дискретний сигнал
+                    {
+                            // змінити тип поля
+                            TrendParam->fields[i]=QString("((%1!=0)*454+%2)").arg(t).arg(i*499);
+                            // дискретні шкали
+                            TrendParam->fScale[i][0]=0.0-1.1*(double)i;
+                            TrendParam->fScale[i][1]=8.8-1.1*(double)i;
+                        }
+                     ++i;
+                }
+                else
+                {--i;} // можливо і поганий варіант яле якщо такого поля не знайдено тоді змінити лічильник циклів
+        }
+
+        TrendParam->numPlot=i; // завантажити кількість графіків
+        TrendParam->table="trend";
+        TrendParam->trend="constract"; // Завантажити ім’я тренда
+
+        TrendParam->trendHead=tr("Конструктор"); // заголовок тренда - те, що написано на кнопці
+        TrendParam->fieldHead = sl;
+
+
+        accept(); // для завершення роботи
+
+    }
+    else
+    {
+        reject();
+    }
+
 }
