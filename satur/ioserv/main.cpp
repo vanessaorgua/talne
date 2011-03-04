@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
     RxModbus r;
 
     r.loadList(":/text/list.txt");
-    r.setHostName("192.168.1.60");
+    r.setHostName("192.168.3.60");
     r.setPort(502);
 
     QVector<IoDev*> src; // джерела даних.
