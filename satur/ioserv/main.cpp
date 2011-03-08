@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
     src << &r;
     Logging l(src);
 
-    r.start();
+//    r.start();
 
     IoNetServer s(src);
 

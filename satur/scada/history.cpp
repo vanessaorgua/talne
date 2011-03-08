@@ -65,8 +65,12 @@ RHistorySelect::RHistorySelect(IoNetClient &src,struct trendinfo *tp,QWidget *p 
 
     QSettings set;
 
-    TrendParam->host=set.value("/db/hostname","localhost").toString();
-    TrendParam->db=set.value("/db/dbname","lynovycya").toString();
+    TrendParam->host="QSQLITE";
+    TrendParam->db=QDir::homePath()+QString("/hystory.db");
+
+//    TrendParam->host=set.value("/db/hostname","localhost").toString();
+//    TrendParam->db=set.value("/db/dbname","lynovycya").toString();
+
     TrendParam->user=set.value("/db/username","scada").toString();
     TrendParam->passwd=set.value("/db/passwd","").toString();
 
